@@ -1,0 +1,36 @@
+@import url('../libs/normalize.css');
+@import url('../libs/fontawesome.css');
+@import url('../libs/reset.css');
+@import url('./global.css');
+@import url('./fonts.css');
+@import url('./style.css');
+@import url('../css/components/header.css');
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+
+.none{
+    display: none;
+} 
+
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    min-height: 100%;
+}
+
+.main{
+    flex: 1 1 auto;
+
+}
+

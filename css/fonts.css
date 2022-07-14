@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Inter';
+    font-weight: 400; 
+    font-style: normal;
+    src: url('../fonts/Inter/Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 500; 
+    font-style: normal;
+    src: url('../fonts/Inter/Inter-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 600; 
+    font-style: normal;
+    src: url('../fonts/Inter/Inter-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 500; 
+    font-style: normal;
+    src: url('../fonts/Montserrat/Montserrat-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 700; 
+    font-style: normal;
+    src: url('../fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 800; 
+    font-style: normal;
+    src: url('../fonts/Montserrat/Montserrat-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 400; 
+    src: url('../fonts/fontsawesome/fa-regular-400.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Font Awesome 6 Brands';
+    font-weight: 400; 
+    src: url('../fonts/fontsawesome/fa-brands-400.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900; 
+    src: url('../fonts/fontsawesome/fa-solid-900.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900; 
+    src: url('../fonts/fontsawesome/fa-v4compatibility.ttf') format('truetype');
+}
+
+
+
+
+
+
+
+
