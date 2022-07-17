@@ -1,0 +1,21 @@
+/* 
+
+.swiper-slide {
+    transform: translateY(63px);
+    text-align: center;
+}
+
+.swiper-slide img{
+    box-shadow: 0px 4px 30px rgba(246, 193, 66, 0.3);
+    border-radius: 20px;
+    
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+   
+}
+
+.swiper-pagination{
+    color: white;
+} */

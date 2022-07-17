@@ -2,19 +2,18 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
-    <!-- Только CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
     <title>Cosmos</title>
 </head>
 
 <body>
     <div class="wrapper">
-
         <header class="header">
             <div class="header__container">
                 <div class="header__container-top">
@@ -23,7 +22,7 @@
                         <a href="tel:(207) 733-1978" class="phone-link">(207) 733-1978</a>
                     </div>
                     <div class="header__container-top-logo">
-                        <img src="./img/Home/logo.svg" alt="logo">
+                        <img src="./img/Home/logo.svg" alt="logo" />
                         <p>Cosmos89</p>
                     </div>
                     <div class="header__container-top-icon icon">
@@ -37,7 +36,6 @@
                             <i class="fa-brands fa-instagram"></i>
                         </a>
                     </div>
-
                 </div>
 
                 <nav class="header__container-buttom menu">
@@ -50,19 +48,34 @@
                         <li><a href="">Contact Us</a></li>
                     </ul>
                 </nav>
-
             </div>
-
 
             <div class="header__slider">
                 <div class="header__container-slider">
-                    <img src="./img/Home/brain symbol left.svg" class="symbol-left" alt="symbol">
-                    <img src="./img/Home/brain symbol right.svg" class="symbol-right" alt="symbol">
                     <h2 class="header__slider-title">We Help You Grow & Succeed</h2>
-                    <div class="header__slider-container">
+                    <img src="./img/Home/brain symbol left.svg" class="symbol-left" alt="symbol" />
+                    <img src="./img/Home/brain symbol right.svg" class="symbol-right" alt="symbol" />
 
-                        <!------------------------------------------------------------------------------------------------------------>
-                        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <!-- Swiper -->
+                    <div class="header__swiper mySwiper">
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+                                <img src="./img/Home/slider-1.jpg" alt="image">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/Home/slider-2.jpg" alt="image">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/Home/slider-3.jpg" alt="image">
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div> -->
+                    <!-- ---------------------------------------------------------------------------------------------------------->
+                    <!-- <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
                                     class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -104,28 +117,42 @@
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
-                        </div>
-                    </div>
-                    <!------------------------------------------------------------------------------------------------------------>
+                        </div> -->
                 </div>
+                <!---------------------------------------------------------------------------------------------------------- -->
             </div>
-        </header>
+    </div>
+    </header>
+
+    <main class="main">
+        <section class="courses">
+            <div class="courses__container">
+                <h2>Discover Lifelong Learning</h2>
+                <nav class="courses__list">
+                    <ul class="courses__list-item">
+                        <li><a href="" class="active">Financial Literacy</a></li>
+                        <li><a href="">Crypto Currency </a></li>
+                        <li><a href="">Metaverse</a></li>
+                        <li><a href="">Financial History</a></li>
+                        <li><a href="">Monetary Systems</a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </main>
 
 
 
 
-        <main class="main">
-        </main>
 
 
-        <footer class="footer">
-            footer
-        </footer>
+
+    <footer class="footer">footer</footer>
     </div>
 
-
-
-
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/slider.js"></script>
 </body>
 
 </html>
