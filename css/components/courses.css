@@ -73,7 +73,6 @@
     left: 10px;
     bottom: -15px;
     display: block;
-    /* width: 50px; */
     height: 4px;
     background-color: var(--color-underline);
 
@@ -92,23 +91,16 @@
     max-width: 100%;
     height: 641px;
     margin: 0 auto;
-    position: relative;
+    background: url('/img/Home/line.svg') no-repeat;
 
 }
 
-.popular__courses-container{
+.popular__courses-container {
     max-width: 1040px;
-    height: 395px;
+    height: 641px;
     margin: 0px auto;
     padding: 0px 15px;
-    
-}
 
-.popular__courses-container img{
-    position: absolute;
-    top: 50px;
-    left: 100px;
-    
 }
 
 .popular__courses h2 {
@@ -120,24 +112,117 @@
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--color-main);
-    transform: translateY(86px);
+    margin-top: 86px;
+
+}
+
+
+.popular__courses-list--item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, max-content);
+    transform: translateY(39px);
+    grid-gap: 21px;
+    z-index: 100;
+
+}
+
+.popular__courses-list--item a {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--font-color-1);
+
+}
+
+
+.item {
+    background: var(--font-color-2);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 21.5px;
+    width: 333.33px;
+    height: 166.5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+}
+
+
+/*Learn Money Management*/
+
+.money__management {
+    max-width: 100%;
+    height: 535px;
+    background: url('/img/Home/learn-money.jpg') no-repeat;
+
+}
+
+.money__management-tittle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    color: var(--font-color-2);
+    width: 400px;
+    height: 120px;
+    margin-left: 201px;
+    transform: translateY(68px);
+
+}
+
+.money__management-info {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: var(--font-color-2);
+    width: 400px;
+    height: 128px;
+    margin-left: 201px;
+    margin-top: 100px;
+
+
+}
+
+.money__management-btn {
+    background: var(--color-btn);
+    border-radius: 100px;
+    width: 159px;
+    height: 50px;
+    margin-left: 201px;
+    margin-top: 26px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 12px 30px;
+}
+
+.money__management-btn a{
+    text-decoration: none;
+    color: var(--font-color-2);
     
 }
 
-
-.popular__courses-list{
-    max-width: 1042px;
-    height: 356px;
-
+.money__management-btn:active{
+    position: relative;
+    top: 1px;
 }
 
-.popular__courses-list--item{
-    display: grid;
-    grid-template-columns: repeat(3,227px);
-    grid-template-rows: repeat(2, 169px);
-    justify-content:center;
-    align-items: center;
-    margin: 0 auto;
-   
+.money__management-btn:hover{
+    color: rgb(57, 119, 190);
+    transition: color 0.2s;
 }
-
