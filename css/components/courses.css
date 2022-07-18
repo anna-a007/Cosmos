@@ -1,17 +1,19 @@
-.courses{
+/*Discover Lifelong Learning*/
+
+.courses {
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)), #FFC000;
     max-width: 100%;
     height: 834px;
     margin: 0 auto;
 }
 
-.courses__container{
+.courses__container {
     max-width: 1040px;
     margin: 0px auto;
     padding: 0px 15px;
 }
 
-.courses__container h2{
+.courses__container h2 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 800;
@@ -25,7 +27,7 @@
 }
 
 
-.courses__list-item{
+.courses__list-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,7 +36,7 @@
     box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.1);
     position: relative;
     margin-top: 40px;
-    
+
 }
 
 
@@ -77,6 +79,65 @@
 
 }
 
-.courses__list-item li:last-child{
+.courses__list-item li:last-child {
     list-style: url('/img/Home/fa-angle-down.svg');
 }
+
+
+
+
+/*Most Popular Courses*/
+
+.popular__courses {
+    max-width: 100%;
+    height: 641px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.popular__courses-container{
+    max-width: 1040px;
+    height: 395px;
+    margin: 0px auto;
+    padding: 0px 15px;
+    
+}
+
+.popular__courses-container img{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    
+}
+
+.popular__courses h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--color-main);
+    transform: translateY(86px);
+    
+}
+
+
+.popular__courses-list{
+    max-width: 1042px;
+    height: 356px;
+
+}
+
+.popular__courses-list--item{
+    display: grid;
+    grid-template-columns: repeat(3,227px);
+    grid-template-rows: repeat(2, 169px);
+    justify-content:center;
+    align-items: center;
+    margin: 0 auto;
+   
+}
+
