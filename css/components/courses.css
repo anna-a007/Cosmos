@@ -3,7 +3,7 @@
 .courses {
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)), #FFC000;
     max-width: 100%;
-    height: 834px;
+    height: 774px;
     margin: 0 auto;
 }
 
@@ -92,6 +92,7 @@
     height: 641px;
     margin: 0 auto;
     background: url('/img/Home/line.svg') no-repeat;
+    background-position: right 50px bottom 190px;
 
 }
 
@@ -156,12 +157,21 @@
 }
 
 
+.item:hover{
+    background-color: #f5e8bc;
+} 
+
+
+
+
+
 /*Learn Money Management*/
 
 .money__management {
     max-width: 100%;
     height: 535px;
     background: url('/img/Home/learn-money.jpg') no-repeat;
+    background-size: 100%;
 
 }
 
@@ -197,7 +207,7 @@
 }
 
 .money__management-btn {
-    background: var(--color-btn);
+    background-color: var(--color-btn);
     border-radius: 100px;
     width: 159px;
     height: 50px;
@@ -219,10 +229,10 @@
 
 .money__management-btn:active{
     position: relative;
-    top: 1px;
+    top: 2px;
+    transition: color 0.2s;
 }
 
 .money__management-btn:hover{
-    color: rgb(57, 119, 190);
-    transition: color 0.2s;
+    background-color: rgb(54, 81, 156);
 }

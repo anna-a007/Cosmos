@@ -144,7 +144,7 @@
     background: var(--color-main);
 }
 
-.header__container-slider{
+.header__container-slider {
     position: relative;
     max-width: 1440px;
     height: 709px;
@@ -168,7 +168,7 @@
 
 
 
-.header__container-slider-swiper{
+.header__container-slider-swiper {
     max-width: 933px;
     height: 579px;
     margin: 0 auto;
@@ -184,15 +184,5 @@
     text-align: center;
     letter-spacing: 0.02em;
     transform: translateY(60px);
-    
+
 }
-
-.swiper-slide{
-
-    text-align: center;
-    transform: translateY(178px);
-    
-}
-
-
-
