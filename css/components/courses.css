@@ -207,6 +207,7 @@
 }
 
 .money__management-btn {
+    display: inline-block;
     background-color: var(--color-btn);
     border-radius: 100px;
     width: 159px;
@@ -219,13 +220,12 @@
     font-size: 18px;
     line-height: 26px;
     padding: 12px 30px;
-}
-
-.money__management-btn a{
     text-decoration: none;
     color: var(--font-color-2);
+    margin-top: 26px;
     
 }
+
 
 .money__management-btn:active{
     position: relative;

@@ -186,3 +186,9 @@
     transform: translateY(60px);
 
 }
+
+
+.courses__swiper{
+    max-width: 1038px;
+    height: 286px;
+}
