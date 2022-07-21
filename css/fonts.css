@@ -41,6 +41,13 @@
 }
 
 @font-face {
+    font-family: 'DMSans';
+    font-weight: 500; 
+    font-style: normal;
+    src: url('../fonts/DM_Sans/DMSans-Medium.ttf') format('truetype');
+}
+
+@font-face {
     font-family: 'Font Awesome 6 Free';
     font-weight: 400; 
     src: url('../fonts/fontsawesome/fa-regular-400.ttf') format('truetype');

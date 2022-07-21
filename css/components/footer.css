@@ -1,0 +1,135 @@
+.footer {
+    width: 1440px;
+    height: 420px;
+    background-color: var(--color-main);
+    margin: 0 auto;
+}
+
+.footer__container {
+    width: 1038px;
+    height: 170px;
+    margin: 100px 201px 150px 201px;
+    display: flex;
+}
+
+.footer__container-1 {
+    width: 163px;
+    height: 77.68px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__container-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__container-logo img {
+    width: 26.6px;
+    height: 24px;
+}
+
+.footer__container-logo p {
+    margin-left: 10.4px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    color: var(--font-color-2);
+
+}
+
+.footer__container-icon {
+    display: flex;
+    gap: 36px;
+}
+
+.footer__container-icon a {
+    color: var(--font-color-2);
+}
+
+
+.footer__container-icon a :hover {
+    transition: 0.9s;
+    transform: scale(1.3);
+}
+
+.footer__container-2 {
+    width: 85px;
+    height: 137px;
+    margin-left: 96px;
+    
+}
+
+.footer__container-list-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.footer__container-list-2 a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--font-color-2);
+    text-decoration: none;
+
+}
+
+.footer__container-3 {
+    width: 85px;
+    height: 137px;
+    margin-left: 175px;
+
+}
+
+.footer__container-list-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.footer__container-list-3 a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--font-color-2);
+    text-decoration: none;
+
+}
+
+
+.footer__container-4 {
+    width: 259px;
+    height: 170px;
+    margin-left: 175px;
+
+}
+
+.footer__container-list-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.footer__container-list-4 a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--font-color-2);
+    text-decoration: none;
+
+}

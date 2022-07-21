@@ -1,22 +1,40 @@
-.start{
+.start {
     max-width: 1440px;
     height: 472px;
-    background-image: url('/img/Home/start-learn.jpg');
- 
- 
+    background: url('/img/Home/start-learn.jpg');
+    position: relative;
+    margin: 0 auto;
+   
+
+
 }
 
 
-  
- .start__wrapper{
+.start:before {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:rgba(14, 30, 54, 0.9);
+    
+}
+
+
+.start__wrapper {
     width: 969px;
     height: 164px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 
- }
+}
 
 
 
@@ -30,16 +48,12 @@
     letter-spacing: -1px;
     color: #FFFFFF;
     margin-top: 60px;
-    
-    
-    
-
-
+    z-index: 3;
 
 }
 
 .start__subtitle {
-    font-family: 'DM Sans';
+    font-family: 'DMSans';
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
@@ -48,23 +62,43 @@
     color: #FFFFFF;
     mix-blend-mode: normal;
     margin-top: 30px;
-  
-    
+    z-index: 4;
+
+
 }
 
-.start__btn{
+.start__btn {
     display: inline-block;
     background: #5DB5F9;
     border-radius: 100px;
     text-decoration: none;
     color: white;
-    font-family: 'DM Sans';
+    font-family: 'DMSans';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 26px;
     padding: 17px 50px;
-   width: 186px;
-   height: 60px;
+    width: 186px;
+    height: 60px;
     margin-top: 48px;
+    z-index: 4;
+}
+
+.start__btn:hover {
+    background-color: rgb(54, 81, 156);
+}
+
+.start__btn:active  {
+    position: relative;
+    top: 2px;
+    transition: color 0.2s;
+}
+
+.start__wave {
+    position: absolute;
+    
+    bottom: 0;
+    
+ 
 }
