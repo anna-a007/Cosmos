@@ -167,7 +167,6 @@
 }
 
 
-
 .header__container-slider-swiper {
     max-width: 933px;
     height: 579px;
@@ -183,7 +182,8 @@
     color: var(--font-color-2);
     text-align: center;
     letter-spacing: 0.02em;
-    transform: translateY(60px);
+    margin-top: 60px;
+    
 
 }
 
@@ -192,3 +192,128 @@
     max-width: 1038px;
     height: 286px;
 }
+
+.swiper-container{
+    margin-top: 63px;
+
+    
+    text-align: center;
+}
+
+.header__container-slider-swiper{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* .swiper-slide {
+    margin-top: 120px;
+    text-align: center;
+    
+
+}
+
+.swiper-pagination-bullet {
+    background: var(--font-color-2) !important;
+    transform: translateY(-70px) !important;
+
+}
+
+
+.swiper-button-prev {
+    transform: translateX(310px);
+    border-radius: 50%;
+    background: var(--font-color-2);
+    width: 50px !important;
+    height: 50px !important;
+
+
+
+}
+
+.swiper-button-prev::after {
+    content: url('/img/Home/arrow-left.svg') !important;
+    transform: translateY(-4px);
+    position: fixed !important;
+
+}
+
+
+.swiper-button-next {
+    transform: translateX(-310px);
+    border-radius: 50%;
+    background: var(--font-color-2);
+    width: 50px !important;
+    height: 50px !important;
+
+
+
+}
+
+.swiper-button-next::after {
+    content: url('/img/Home/arrow-right.svg') !important;
+    transform: translateY(-4px);
+
+}
+
+
+.swiper-slide img {
+    box-shadow: 0px 4px 30px rgba(246, 193, 66, 0.3);
+    border-radius: 20px;
+    filter: brightness(70%);
+    
+   
+}
+
+
+
+
+.slide {
+    position: relative;
+    margin: 0 auto;
+    width: 614px;
+    height: 401px;
+    /* border: 2px dashed #F6C142;
+    border-radius: 20px;  */
+
+    
+
+
+
+
+
+
+
+.swiper-slide h4 {
+    position: absolute;
+    top: -70px;
+    left: 144px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--font-color-2);
+    transform: translateY(400px);
+    z-index: 1000;
+
+}
+
+.swiper-slide p {
+    position: absolute;
+    top: 367px;
+    left: 232px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--font-color-2);
+    opacity: 0.67;
+    z-index: 1005;
+
+}
+

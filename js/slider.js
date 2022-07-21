@@ -1,4 +1,4 @@
-const swiper = new Swiper(".mySwiper", {
+const swiper = new Swiper(".swiper-container.swiper-one", {
   spaceBetween: 350,
   navigation: {
     nextEl: ".swiper-button-next",
