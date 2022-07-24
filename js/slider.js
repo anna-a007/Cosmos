@@ -6,31 +6,47 @@ const swiper = new Swiper(".swiper-container.swiper-one", {
   speed: 800,
   pagination: {
     el: ".swiper-pagination1",
-    clicable:true
+    clicable: true,
   },
   // autoplay:{
   //   delay:2500,
   //   disableOnIteraction:false,
-  
-  // }
 
-  
+  // }
 });
 
-var swiperTwo = new Swiper('.swiper-container2.swiper-two', {
+var swiperTwo = new Swiper(".swiper-container2.swiper-two", {
   slidesPerView: 4,
   spaceBetween: 30,
   slidesPerGroup: 4,
   loop: true,
   loopFillGroupWithBlank: true,
   navigation: {
-    nextEl: '.modal-swiper-button-next',
-    prevEl: '.modal-swiper-button-prev',
+    nextEl: ".modal-swiper-button-next",
+    prevEl: ".modal-swiper-button-prev",
   },
   pagination: {
     el: ".modal-swiper-pagination",
-    clicable:true
+    clicable: true,
   },
 });
 
+const swiperThree = new Swiper(".swiper-container3.swiper-three", {
+  slidesPerView: 1,
+  // spaceBetween: 10,
+  navigation: {
+    nextEl: ".money-management-button-next",
+    prevEl: ".money-management-button-prev",
+  },
 
+  speed: 800,
+  pagination: {
+    el: ".money-management-pagination",
+    clicable: true,
+  },
+  // autoplay:{
+  //   delay:2500,
+  //   disableOnIteraction:false,
+
+  // }
+});

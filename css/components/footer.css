@@ -42,6 +42,10 @@
     color: var(--font-color-2);
 
 }
+.footer__container-logo a {
+text-decoration: none;
+}
+
 
 .footer__container-icon {
     display: flex;
@@ -112,6 +116,10 @@
 
 }
 
+.footer__container-list-3 a:hover{
+    font-weight: 600;
+}
+
 
 .footer__container-4 {
     width: 259px;
@@ -136,4 +144,8 @@
     color: var(--font-color-2);
     text-decoration: none;
 
+}
+
+.footer__container-list-4 a:hover{
+    font-weight: 600;
 }

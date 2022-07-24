@@ -1,7 +1,7 @@
 /*Discover Lifelong Learning*/
 
 .courses {
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)), #FFC000;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)), #ffc000;
     max-width: 1440px;
     height: 774px;
     margin: 0 auto;
@@ -17,13 +17,10 @@
     overflow: hidden;
 }
 
-
-
 .swiper-container2 {
     margin-top: 30px;
     width: 1038px;
     height: 286px;
-
 }
 
 /*---------------------------------slids----------------------------------------------*/
@@ -34,9 +31,8 @@
     height: 286px;
 }
 
-
 .point1_p {
-    background: #FFFFFF;
+    background: #ffffff;
     width: 237px;
     height: 86px;
     padding: 19px 22px;
@@ -44,7 +40,7 @@
 }
 
 .point1 p {
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -60,9 +56,8 @@
     height: 286px;
 }
 
-
 .point2_p {
-    background: #FFFFFF;
+    background: #ffffff;
     width: 237px;
     height: 86px;
     padding: 19px 22px;
@@ -70,7 +65,7 @@
 }
 
 .point2 p {
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -86,18 +81,16 @@
     height: 286px;
 }
 
-
 .point3_p {
-    background: #FFFFFF;
+    background: #ffffff;
     width: 237px;
     height: 86px;
     padding: 19px 22px;
     border-radius: 0px 0px 20px 20px;
-
 }
 
 .point3 p {
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -113,18 +106,16 @@
     height: 286px;
 }
 
-
 .point4_p {
-    background: #FFFFFF;
+    background: #ffffff;
     width: 237px;
     height: 86px;
     padding: 19px 22px;
     border-radius: 0px 0px 20px 20px;
-
 }
 
 .point4 p {
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -140,18 +131,16 @@
     height: 286px;
 }
 
-
 .point5_p {
-    background: #FFFFFF;
+    background: #ffffff;
     width: 237px;
     height: 86px;
     padding: 19px 22px;
     border-radius: 0px 0px 20px 20px;
-
 }
 
 .point5 p {
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -167,18 +156,16 @@
     height: 286px;
 }
 
-
 .point6_p {
-    background: #FFFFFF;
+    background: #ffffff;
     width: 237px;
     height: 86px;
     padding: 19px 22px;
     border-radius: 0px 0px 20px 20px;
-
 }
 
 .point6 p {
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -194,18 +181,16 @@
     height: 286px;
 }
 
-
 .point7_p {
-    background: #FFFFFF;
+    background: #ffffff;
     width: 237px;
     height: 86px;
     padding: 19px 22px;
     border-radius: 0px 0px 20px 20px;
-
 }
 
 .point7 p {
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -221,18 +206,16 @@
     height: 286px;
 }
 
-
 .point8_p {
-    background: #FFFFFF;
+    background: #ffffff;
     width: 237px;
     height: 86px;
     padding: 19px 22px;
     border-radius: 0px 0px 20px 20px;
-
 }
 
 .point8 p {
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -241,18 +224,16 @@
     color: #000000;
 }
 
-
 .modal-swiper-button-next {
     border-radius: 50%;
     background: var(--color-main);
     width: 36px;
     height: 36px;
     position: relative;
-
 }
 
 .modal-swiper-button-next::after {
-    content: url('/img/Home//arrow-small-right.svg');
+    content: url("/img/Home//arrow-small-right.svg");
     top: 9px;
     left: 13px;
     position: absolute;
@@ -266,10 +247,8 @@
     position: relative;
 }
 
-
-
 .modal-swiper-button-prev::after {
-    content: url('/img/Home/arrow-small-left.svg');
+    content: url("/img/Home/arrow-small-left.svg");
     top: 9px;
     right: 13px;
     position: absolute;
@@ -282,20 +261,16 @@
     margin-left: 419px;
 }
 
-
 .modal-swiper-pagination {
     margin-bottom: 0;
     position: static;
     max-width: 91px;
     margin: 6px 20px 0px 20px;
-
 }
 
 .button2 .swiper-pagination-bullet {
     background: var(--color-main);
-
 }
-
 
 /*---------------------------------slids ENDS----------------------------------------------*/
 
@@ -303,7 +278,7 @@
     margin-top: 40px;
     margin-left: 405px;
     text-decoration: none;
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -328,7 +303,7 @@
 
 .courses__container h2 {
     margin-top: 40px;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 800;
     font-size: 48px;
@@ -336,10 +311,7 @@
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--color-main);
-
-
 }
-
 
 .courses__list-item {
     display: flex;
@@ -349,14 +321,11 @@
     margin-top: 42px;
     box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.1);
     position: relative;
-
-
 }
-
 
 .courses__list-item a {
     position: relative;
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -364,7 +333,6 @@
     text-decoration: none;
     color: var(--color-links);
     text-transform: uppercase;
-
 }
 
 .courses__list-item a.active {
@@ -377,7 +345,6 @@
     color: var(--font-color-1);
 }
 
-
 .courses__list-item a.active::after,
 .courses__list-item a:hover::after {
     content: "";
@@ -389,15 +356,11 @@
     display: block;
     height: 4px;
     background-color: var(--color-underline);
-
 }
 
 .courses__list-item li:last-child {
-    list-style: url('/img/Home/fa-angle-down.svg');
+    list-style: url("/img/Home/fa-angle-down.svg");
 }
-
-
-
 
 /*Most Popular Courses*/
 
@@ -405,9 +368,8 @@
     max-width: 1440px;
     height: 641px;
     margin: 0 auto;
-    background: url('/img/Home/line.svg') no-repeat;
+    background: url("/img/Home/line.svg") no-repeat;
     background-position: right -2px bottom 185px;
-
 }
 
 .popular__courses-container {
@@ -415,11 +377,10 @@
     height: 641px;
     margin: 0px auto;
     padding: 0px 15px;
-
 }
 
 .popular__courses h2 {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 800;
     font-size: 48px;
@@ -428,9 +389,7 @@
     letter-spacing: 0.02em;
     color: var(--color-main);
     margin-top: 86px;
-
 }
-
 
 .popular__courses-list--item {
     display: grid;
@@ -439,21 +398,18 @@
     transform: translateY(39px);
     grid-gap: 21px;
     z-index: 100;
-
 }
 
 .popular__courses-list--item a {
     text-decoration: none;
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
     color: var(--font-color-1);
-
 }
-
 
 .item {
     background: var(--font-color-2);
@@ -467,41 +423,104 @@
     justify-content: center;
     align-items: center;
     gap: 16px;
-
 }
-
 
 .item:hover {
     background-color: #f5e8bc;
 }
 
-
-
-
-
 /*Learn Money Management*/
 
-.money__management {
-    max-width: 1440px;
-    margin: 0 auto;
+.swiper-container3 {
+    width: 1440px;
     height: 535px;
-    background: url('/img/Home/learn-money.jpg') no-repeat;
-    background-size: 100%;
-
+    margin: 0 auto;
+    overflow: hidden;
+    /* display: flex;
+    flex-direction: column; */
+    position: relative;
 }
 
-.money__management-container {
+.money1 {
+    background: url("/img/Home/learn-money.jpg");
+    width: 1440px;
+    height: 535px;
+}
+
+.money2 {
+    background: url("/img/Home/slide3-2.jpg");
+    width: 1440px;
+    height: 535px;
+    position: relative;
+}
+
+.money2:before {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:rgba(115, 122, 134, 0.7);
+    
+}
+
+.money3 {
+    background: url("/img/Home/slide3-3.jpg");
+    width: 1440px;
+    height: 535px;
+    position: relative;
+}
+
+.money3:before {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:rgba(125, 130, 137, 0.8);
+    
+}
+
+.money4 {
+    background: url("/img/Home/slide3-4.jpg");
+    width: 1440px;
+    height: 535px;
+    position: relative;
+}
+
+.money4:before {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:rgba(157, 167, 182, 0.9);
+    
+}
+
+
+.money-management-info {
     display: flex;
     flex-direction: column;
+    transform: translate(201px,60px);
     width: 400px;
     height: 349px;
-    margin-left: 201px;
-    transform: translateY(60px);
-
 }
 
 .money__management-tittle {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 800;
     font-size: 48px;
@@ -512,8 +531,8 @@
     height: 120px;
 }
 
-.money__management-info {
-    font-family: 'Inter';
+.money__management-paragraph {
+    font-family: "Inter";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -523,8 +542,6 @@
     width: 400px;
     height: 128px;
     margin-top: 25px;
-
-
 }
 
 .money__management-btn {
@@ -533,7 +550,7 @@
     border-radius: 100px;
     width: 159px;
     height: 50px;
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -542,9 +559,7 @@
     text-decoration: none;
     color: var(--font-color-2);
     margin-top: 26px;
-
 }
-
 
 .money__management-btn:active {
     position: relative;
@@ -554,4 +569,64 @@
 
 .money__management-btn:hover {
     background-color: rgb(54, 81, 156);
+}
+
+.button3{
+    display: flex;
+    margin-left: 619px;
+   
+    position: absolute;
+    top: 0;
+    left: 0;
+    top: 439px;
+    z-index: 1;
+
+}
+.money-management-button-next{
+    border-radius: 50%;
+    background: var(--font-color-2);
+    width: 36px;
+    height: 36px;
+    position: relative;
+}
+
+.money-management-button-next::after {
+    content: url("/img/Home/arrow-small-black-right.svg");
+    top: 10px;
+    left: 16px;
+    position: absolute;
+}
+
+.money-management-button-prev{
+    border-radius: 50%;
+    background: var(--font-color-2);
+    width: 36px;
+    height: 36px;
+    position: relative;
+}
+
+.money-management-button-prev::after {
+    content: url("/img/Home/arrow-small-black-left.svg");
+    top: 10px;
+    right: 16px;
+    position: absolute;
+}
+
+
+.money-management-pagination {
+    margin-bottom: 0;
+    position: static;
+    max-width: 91px;
+    margin: 6px 20px 0px 20px;
+}
+
+.button3 .money-management-pagination {
+    width: 66px;
+    
+    
+}
+
+.button3 .swiper-pagination-bullet {
+    background: var(--font-color-2);
+
 }
