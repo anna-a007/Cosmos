@@ -1,3 +1,9 @@
+.header{
+    width: 1440px;
+    margin: 0 auto;
+    box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
 .header__container {
     max-width: 1040px;
     margin: 0px auto;

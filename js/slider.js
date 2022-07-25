@@ -18,7 +18,7 @@ const swiper = new Swiper(".swiper-container.swiper-one", {
 var swiperTwo = new Swiper(".swiper-container2.swiper-two", {
   slidesPerView: 4,
   spaceBetween: 30,
-  slidesPerGroup: 4,
+  slidesPerGroup: 1,
   loop: true,
   loopFillGroupWithBlank: true,
   navigation: {
