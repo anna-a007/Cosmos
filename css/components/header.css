@@ -244,7 +244,7 @@
 }
 
 .swiper-button-next::after {
-    content: url('/img/Home/arrow-right.svg');
+    content: url('../../img/Home/arrow-right.svg');
     transform: translateY(-4px);
 }
 
@@ -259,7 +259,7 @@
 }
 
 .swiper-button-prev::after {
-    content: url('/img/Home/arrow-left.svg');
+    content: url('../../img/Home/arrow-left.svg');
     transform: translateY(-4px);
 }
 

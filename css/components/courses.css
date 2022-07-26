@@ -163,7 +163,7 @@
 }
 
 .modal-swiper-button-next::after {
-    content: url("/img/Home//arrow-small-right.svg");
+    content: url("../../img/Home/arrow-small-right.svg");
     top: 9px;
     left: 13px;
     position: absolute;
@@ -178,7 +178,7 @@
 }
 
 .modal-swiper-button-prev::after {
-    content: url("/img/Home/arrow-small-left.svg");
+    content: url("../../img/Home/arrow-small-left.svg");
     top: 9px;
     right: 13px;
     position: absolute;
@@ -289,7 +289,7 @@
 }
 
 .courses__list-item li:last-child {
-    list-style: url("/img/Home/fa-angle-down.svg");
+    list-style: url("../../img/Home/fa-angle-down.svg");
 }
 
 /*Most Popular Courses*/
@@ -304,7 +304,7 @@
     max-width: 1440px;
     height: 641px;
     margin: 0 auto;
-    background: url("/img/Home/line.svg") no-repeat;
+    background: url("../../img/Home/line.svg") no-repeat;
     background-position: right -2px bottom 185px;
 }
 
@@ -379,13 +379,13 @@
 }
 
 .money1 {
-    background: url("/img/Home/learn-money.jpg");
+    background: url("../../img/Home/learn-money.jpg");
     width: 1440px;
     height: 535px;
 }
 
 .money2 {
-    background: url("/img/Home/slide3-2.jpg");
+    background: url("../../img/Home/slide3-2.jpg");
     width: 1440px;
     height: 535px;
     position: relative;
@@ -406,7 +406,7 @@
 }
 
 .money3 {
-    background: url("/img/Home/slide3-3.jpg");
+    background: url("../../img/Home/slide3-3.jpg");
     width: 1440px;
     height: 535px;
     position: relative;
@@ -427,7 +427,7 @@
 }
 
 .money4 {
-    background: url("/img/Home/slide3-4.jpg");
+    background: url("../../img/Home/slide3-4.jpg");
     width: 1440px;
     height: 535px;
     position: relative;
@@ -528,7 +528,7 @@
 }
 
 .money-management-button-next::after {
-    content: url("/img/Home/arrow-small-black-right.svg");
+    content: url("../../img/Home/arrow-small-black-right.svg");
     top: 10px;
     left: 16px;
     position: absolute;
@@ -543,7 +543,7 @@
 }
 
 .money-management-button-prev::after {
-    content: url("/img/Home/arrow-small-black-left.svg");
+    content: url("../../img/Home/arrow-small-black-left.svg");
     top: 10px;
     right: 16px;
     position: absolute;
