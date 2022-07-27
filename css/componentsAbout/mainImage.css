@@ -17,17 +17,27 @@
     border-radius: 20px;
 }
 
-.main__image-border1 {
+.main__image::before {
+    content: '';
+    width: 1040px;
+    height: 260px;
     position: absolute;
-    top: -5px;
     left: -6px;
+    top: -5px;
+    border: 2px dashed #F6C142;
+    border-radius: 20px;
     z-index: -1;
 }
 
-.main__image-border2 {
+.main__image::after {
+    content: '';
+    width: 1040px;
+    height: 260px;
     position: absolute;
-    bottom: -5px;
     right: -6px;
+    bottom: -5px;
+    border: 2px dashed #5DB5F9;
+    border-radius: 20px;
     z-index: -1;
 }
 

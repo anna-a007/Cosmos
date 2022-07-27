@@ -85,12 +85,10 @@
 }
 
 
-
 .header__container-buttom menu {
     box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.1);
 
 }
-
 
 .menu__list {
     display: flex;
@@ -184,16 +182,11 @@
 }
 /*---------------------------------slider---------------------------------*/
 
-/* .courses__swiper{
-    max-width: 1038px;
-    height: 286px;
-} */
-
 .swiper-container{
     margin-top: 63px;
     text-align: center;
     position: relative;
-    overflow: hidden;
+    overflow-x: clip;
 }
 
 .header__container-slider-swiper{
@@ -209,10 +202,39 @@
 .picture_1 {
     box-shadow: 0px 4px 30px rgba(246, 193, 66, 0.3);
     border-radius: 20px;
-    filter: brightness(70%);
-    /* border: 2px dashed #F6C142;
-    border-radius: 20px;  */
+    filter: brightness(70%); 
 }
+
+
+.picture{
+    width: 614px;
+    height: 401px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.picture::before {
+    content: '';
+    width: 614px;
+    height: 401px;
+    position: absolute;
+    left: -9px;
+    top: -9px;
+    border: 2px dashed #F6C142;
+    border-radius: 20px;
+}
+.picture::after {
+    content: '';
+    width: 614px;
+    height: 401px;
+    position: absolute;
+    right: -9px;
+    bottom: -9px;
+    border: 2px dashed #5DB5F9;
+    border-radius: 20px;
+    z-index: -1;
+}
+
 
 /* .picture1{
     position: absolute;
