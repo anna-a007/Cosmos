@@ -1,0 +1,19 @@
+.menu__list a.active3 {
+    font-weight: 600;
+    color: var(--font-color-1);
+}
+.menu__list a {
+    position: relative;
+}
+
+.menu__list a.active3::after,
+.menu__list a:hover::after {
+    content: "";
+    position: absolute;
+    right: 7px;
+    left: 7px;
+    bottom: -15px;
+    display: block;
+    height: 4px;
+    background-color: var(--color-underline);
+}
