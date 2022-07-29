@@ -55,7 +55,10 @@ const swiperThree = new Swiper(".swiper-container3.swiper-three", {
 
 var swiperFour = new Swiper(".swiper-container4.swiper-four", {
   slidesPerView: 6,
-  spaceBetween: 16,
+  // spaceBetween: 16,
+  slidesPerGroup: 1,
+  loop: true,
+  loopFillGroupWithBlank: true,
   navigation: {
     nextEl: ".news-button-next",
     prevEl: ".news-button-prev",
