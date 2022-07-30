@@ -1,3 +1,192 @@
+.main__news {
+    background: url("/img/News/background.svg") no-repeat;
+    margin: 0 auto;
+    width: 1440px;
+}
+
+.news__title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    color: var(--color-main);
+    margin-top: 37px;
+}
+
+.something {
+    width: 1040px;
+    height: 46px;
+    background: rgb(231, 209, 168);
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
+.news__block {
+    width: 1040px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, max-content);
+    grid-gap: 40px;
+    margin: 0 auto;
+    margin-top: 37px;
+    margin-bottom: 110px;
+}
+
+.news__block a {
+    text-decoration: none;
+}
+
+.news__item-card {
+    background: #ffffff;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    width: 320px;
+    height: 443px;
+}
+
+.news__img {
+    position: relative;
+    width: 320px;
+    height: 240px;
+}
+
+.img {
+    position: absolute;
+    top: 18px;
+    left: 16px;
+}
+
+.news__card-info {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.news__button {
+    background: #ffffff;
+    border: 1px solid #12182a;
+    border-radius: 6px;
+    display: inline-block;
+    height: 29px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 6px 10px;
+    margin-left: 20px;
+}
+
+.news__button:hover {
+    background: var(--color-main);
+    color: var(--font-color-2);
+}
+
+.news__card-atribute {
+    display: flex;
+    align-items: center;
+}
+
+.news__date {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #434755;
+}
+
+.news__item-title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+    margin-top: 22px;
+    width: 276px;
+    height: 56px;
+    margin-left: 20px;
+}
+
+.news__item-paragraph {
+    margin-top: 6px;
+    width: 278px;
+    height: 48px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #434755;
+    margin-left: 20px;
+}
+
+.news__date-cryptocurrency {
+    margin-left: 25px;
+}
+
+.news__date-metaverse {
+    margin-left: 77px;
+}
+
+.news__date-investment {
+    margin-left: 69px;
+}
+
+.news__list {
+    display: flex;
+}
+
+.news__list-item {
+    display: flex;
+    /* gap: 16px; */
+    margin: 0 auto;
+    margin-top: 18px;
+    width: 1040px;
+    justify-content: space-evenly;
+}
+
+.news__list-item li {
+    background: #ffffff;
+    border: 1px solid rgba(18, 24, 42, 0.2);
+    border-radius: 6px;
+    height: 46px;
+    padding: 12px 20px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.news__list-item a {
+    text-decoration: none;
+}
+
+.arrow-left{
+
+    content: url("../../img/News/arrow-left.svg");
+}
+
+.arrow-right{
+    content: url("../../img/News/arrow-right.svg");
+}
+
+/* .item-1{
+    width: 46px;
+    height: 46px;
+} */
+
+
+
+
 /* .swiper-four {
     width: 915px;
     height: 46px;
