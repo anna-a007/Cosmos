@@ -16,6 +16,11 @@
 @import url("../css/componentsCourses/header.css");
 @import url("../css/componentsNews/mainNews.css");
 @import url("../css/componentsNews/header.css");
+@import url("../css/componentsNews/mainNewsCryptocurrency.css");
+@import url("../css/componentsContacts/mainContacts.css");
+@import url("../css/componentsContacts/headerContacts.css");
+
+
 
 * {
     box-sizing: border-box;
@@ -39,4 +44,6 @@ body {
 
 .main {
     flex: 1 1 auto;
+    margin: 0 auto;
+    
 }

@@ -6,10 +6,11 @@
 }
 
 .footer__container {
-    width: 1038px;
+    max-width: 1038px;
     height: 170px;
     margin: 100px 201px 150px 201px;
     display: flex;
+    justify-content: space-between;
 }
 
 .footer__container-1 {
@@ -66,7 +67,7 @@ text-decoration: none;
 .footer__container-2 {
     width: 85px;
     height: 137px;
-    margin-left: 96px;
+    /* margin-left: 96px; */
     
 }
 
@@ -95,7 +96,7 @@ text-decoration: none;
 .footer__container-3 {
     width: 85px;
     height: 137px;
-    margin-left: 175px;
+    /* margin-left: 175px; */
 
 }
 
@@ -125,7 +126,7 @@ text-decoration: none;
 .footer__container-4 {
     width: 259px;
     height: 170px;
-    margin-left: 175px;
+    /* margin-left: 175px; */
 
 }
 

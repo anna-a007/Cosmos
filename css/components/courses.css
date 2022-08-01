@@ -368,6 +368,8 @@
 
 /*Learn Money Management*/
 
+
+
 .swiper-container3 {
     width: 1440px;
     height: 535px;
@@ -509,7 +511,6 @@
 .button3{
     display: flex;
     margin-left: 619px;
-   
     position: absolute;
     top: 0;
     left: 0;
