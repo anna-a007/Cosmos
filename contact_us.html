@@ -51,9 +51,20 @@
                 </nav>
             </div>
 
+            <div class="header__mobile">
+                <div class="header__mobile-top">
+                    <a href="#"><img src="./img/News/mobile-news/mobile-logo.jpg" alt="logo" /></a>
+                    <button class="header__humburger">
+                        <img src="./img/News/mobile-news/menu.svg" alt="menu">
+                    </button>                  
+                </div>
+            </div>
+
         </header>
 
         <main class="main__contact">
+            <img src="./img/News/figure-left.svg" class="figure-left" alt="figure">
+            <img src="./img/News/figure-right.svg"class="figure-right" alt="figure">
             <div class="contact__wrapper">
                 <div class="contact__info">
                     <h2 class="contact__title">Get In Touch</h2>
@@ -86,25 +97,36 @@
                         <p class="field_name">Your Name</p>
                         <input placeholder="Full name" type="text" name="name" required="required">               
                         
-                        <p class="field_name">Your Email Address</p>
-                        <input placeholder="Email address" type="text" name="address" required="required">
+                        <div class="field__wrapper">
+                            <div class="field__wrapper-name">
+                                <p class="field_name">Your Email Address</p>
+                                <input placeholder="Email address" type="text" name="address" required="required">
+                            </div>  
+                            <div class="field__wrapper-name">
+                                <p class="field_name">Your Phone Number</p>
+                                <input placeholder="Phone number" type="number" name="phone" required="required">
+                            </div> 
+                        </div>
                         
-                        <p class="field_name">Your Phone Number</p>
-                        <input placeholder="Phone number" type="number" name="phone" required="required">
+                        <div class="field__wrapper">
+                            <div class="field__wrapper-name">
+                                <p class="field_name">Your Company Name</p>
+                                <input placeholder="company name" type="text" name="address" required="required">
+                            </div>
+                            <div class="field__wrapper-name">
+                                <p class="field_name">Reason For Contacting?</p>
+                                <select name="reason"> 
+                                    <option value=" Select "> Select </option>
+                                    <option value=" Value 1"> Value 1</option>
+                                    <option value=" Value 2"> Value 2</option>
+                                    <option value=" Value 3"> Value 3</option>
+                                </select>
+                            </div>
+                        </div>
                         
-                        <p class="field_name">Your Company Name</p>
-                        <input placeholder="company name" type="text" name="address" required="required">
-                        
-                        <p class="field_name">Reason For Contacting?</p>
-                        <select name="reason"> 
-                            <option value=" Select "> Select </option>
-                            <option value=" Value 1"> Value 1</option>
-                            <option value=" Value 2"> Value 2</option>
-                            <option value=" Value 3"> Value 3</option>
-                        </select>
-    
+
                         <p class="field_name">Tell us how can we help?</p>
-                        <textarea name="message"></textarea>
+                        <textarea placeholder="Type your message here..." name="message"></textarea>
                         <input type="submit" name="submit_btn" value="Submit">
                     </div>
                     
@@ -171,6 +193,7 @@
 
         <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
         <script src="./js/slider.js"></script>
+        <script src="./js/header-mobile.js"></script>
     </div>
 </body>
 
