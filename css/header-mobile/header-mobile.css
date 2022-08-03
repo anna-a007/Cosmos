@@ -18,9 +18,9 @@
     display: none;
 }
 
-@media (max-width: 414px) {
 
-    .main__contact{
+@media (max-width: 414px) {
+    .main__contact {
         height: 1535px;
     }
 
@@ -31,7 +31,6 @@
         flex-direction: column;
         justify-content: space-between;
         margin: 0 auto;
-        
     }
     .header__container {
         display: none;
@@ -47,6 +46,8 @@
 
     .header__humburger {
         display: block;
+        z-index: 10;
+
     }
 
     .figure-left,
@@ -63,8 +64,9 @@
     }
 
     .contact__info {
-        margin-left: 30px;
+        margin: 0 auto;
         width: 354px;
+        transform: translateY(30px);
     }
 
     .contact__phone {
@@ -73,20 +75,173 @@
         margin-top: 26px;
     }
 
-    .contact__email, .contact__location {
+    .contact__email,
+    .contact__location {
         width: 354px;
         height: 84px;
         margin-top: 10px;
     }
 
-    .contact__paragraph{
+    .contact__paragraph {
         margin-top: 15px;
         font-size: 18px;
         width: 354px;
         height: 120px;
     }
 
-    .contact-link, .email-link, .location-link{
+    .contact-link,
+    .email-link,
+    .location-link {
         font-size: 16px;
+    }
+
+    .form__contact {
+        width: 354px;
+        height: 948px;
+        margin: 0 auto;
+        transform: translateY(65px);
+    }
+
+    .form__contact-caption {
+        margin-top: 30px;
+        margin-left: 31px;
+    }
+
+    .form__fields {
+        margin: 0;
+    }
+
+    .form__contact-caption:before {
+        width: 294px;
+    }
+
+    .field_name {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .field__wrapper {
+        display: block;
+    }
+
+    input[type="text"],
+    [type="number"],
+    [name="reason"] {
+        width: 294px;
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+
+    textarea[name="message"] {
+        width: 294px;
+        height: 150px;
+        margin-left: 30px;
+    }
+
+    input[name="submit_btn"] {
+        margin-top: 30px;
+        width: 122px;
+        height: 50px;
+        margin-left: 30px;
+        margin-bottom: 40px;
+    }
+
+    .footer {
+        width: 414px;
+        height: 751px;
+    }
+
+    .footer__container {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 414px;
+        height: 654px;
+        margin-top: 40px;
+    }
+
+    .footer__container-1 {
+        display: block;
+        width: 414px;
+        text-align: center;
+        /* margin-top: 40px; */
+    }
+
+    .footer__container-2 {
+        width: 414px;
+        text-align: center;
+        margin-top: 55px;
+        line-height: 19px;
+    }
+
+    .footer__container-3,
+    .footer__container-4 {
+        width: 414px;
+        text-align: center;
+        margin-top: 80px;
+        line-height: 19px;
+    }
+
+    .footer__container-4 {
+        margin-bottom: 54px;
+    }
+
+    .footer__container-icon {
+        justify-content: center;
+        margin-top: 31px;
+    }
+
+    .footer__container-list-2,
+    .footer__container-list-3,
+    .footer__container-list-4 {
+        gap: 31px;
+    }
+
+    .main__contact {
+        background: url("/img/News/mobile-news/background.svg") no-repeat;
+    }
+
+    .header__mobile-menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 15px;
+        background: #eff8fe;
+        z-index: 2;
+        transform: translateX(-100%);
+        transition: transform 0.5s;
+    }
+
+    .header__mobile-menu.active {
+        transform: translateX(0);     
+    }
+
+    .header__mobile-menu {
+        
+    }
+
+    .mobile__menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        transform: translateY(120px);
+        
+    }
+
+    .mobile__menu li a{
+        text-decoration: none;
+        font-size: 30px;
+        font-family: "Inter";
+        font-style: normal;
+        opacity: 0.8;
+        color: #12182a;
+    }
+
+    .mobile__menu li a:hover{
+        font-weight: 700;
+
     }
 }
