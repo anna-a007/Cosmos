@@ -1,0 +1,209 @@
+@media (max-width: 414px) {
+    .courses__container h2 {
+        font-size: 30px;
+        line-height: 37px;
+        margin-top: 50px;
+    }
+
+    .button2 {
+        margin-left: 97px;
+    }
+
+    .courses__btn {
+        margin-left: 88px;
+        margin-top: 50px;
+    }
+
+    .courses__list {
+        display: none;
+    }
+
+    .popular__courses h2 {
+        font-size: 30px;
+        line-height: 37px;
+        width: 354px;
+        height: 74px;
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+
+    .popular__courses-list--item {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, max-content);
+        grid-gap: 30px;
+        z-index: 100;
+        /* transform: translateY(34px);  */
+        margin-left: 17px;
+    }
+
+    .item {
+        width: 162px;
+        height: 162px;
+    }
+
+    .popular__courses {
+        background: url("/img/mobile/line-mobile.svg") no-repeat;
+        background-position: right 3px bottom 175px;
+        height: 768px;
+    }
+
+    .popular__courses-container {
+        height: 654px;
+        margin-top: 53px;
+    }
+
+    .popular__courses-list {
+        margin-top: 22px;
+    }
+
+    .money__management {
+        height: 603px;
+    }
+
+    .money-management-info {
+        margin-left: -170px;
+    }
+
+    .money__management-tittle {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    .money__management-paragraph {
+        width: 334px;
+        height: 188px;
+        margin-top: 31px;
+    }
+
+    .money__management-btn {
+        margin-top: 40px;
+    }
+
+    .button3 {
+        margin-left: 106px;
+        margin-top: 40px;
+    }
+    /*----------------------------feature---------------------------------*/
+    .feature__row-1,
+    .feature__row-2,
+    .feature__row-3 {
+        flex-direction: column;
+        width: 354px;
+        height: 667px;
+        margin: 0 auto;
+    }
+    .feature__row-2 {
+        margin-top: 45px;
+    }
+    .feature__row-3 {
+        margin-top: 55px;
+    }
+
+    .feature__info-1 h2,
+    .feature__info-2 h2,
+    .feature__info-3 h2 {
+        font-size: 30px;
+        line-height: 37px;
+        width: 344px;
+        height: 74px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .feature__info-1 p,
+    .feature__info-3 p {
+        width: 354px;
+        height: 128px;
+        text-align: center;
+        margin-top: 15px;
+        font-size: 18px;
+    }
+
+    .feature__info-2 {
+        margin-left: 0;
+    }
+
+    .feature__info-2 p {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .features__btn-1,
+    .features__btn-2,
+    .features__btn-3 {
+        margin-top: 20px;
+        margin-left: 107px;
+    }
+
+    .feature__row-element-1,
+    .feature__row-element-2,
+    .feature__row-element-3 {
+        display: none;
+    }
+
+    .feature__row-mobile-element-1,
+    .feature__row-mobile-element-1-2,
+    .feature__row-mobile-element-2-1,
+    .feature__row-mobile-element-3-2 {
+        display: block;
+    }
+
+    .feature__row-mobile-element-1 {
+        margin-left: 148px;
+        margin-top: -38px;
+    }
+
+    .img-first,
+    .img-second,
+    .img-first-2,
+    .img-second-2,
+    .img-first-3,
+    .img-second-3 {
+        display: none;
+    }
+
+    /*----------------------------start---------------------------------*/
+    .start {
+        height: 440px;
+        background: url("/img/mobile/Background-mobile-blue.jpg");
+    }
+
+    .start__title {
+        font-weight: 800;
+        font-size: 38px;
+        line-height: 46px;
+        width: 344px;
+        height: 92px;
+        letter-spacing: 0.02em;
+    }
+
+    .start__subtitle {
+        display: none;
+    }
+
+    .start__wrapper {
+        width: 414px;
+    }
+
+    .start__mobile-subtitle {
+        display: block;
+        width: 374px;
+        height: 56px;
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        color: #ffffff;
+        mix-blend-mode: normal;
+        z-index: 6;
+        margin-top: 23px;
+    }
+
+    .start__btn {
+        margin-top: 27px;
+    }
+}

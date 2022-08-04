@@ -96,3 +96,7 @@
     position: absolute;
     bottom: 0;
 }
+
+.start__mobile-subtitle{
+    display: none;
+}

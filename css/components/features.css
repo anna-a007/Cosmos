@@ -17,8 +17,12 @@
     margin: 57px 54px 0px 139px;
 }
 
+.feature__row-mobile-element-1,.feature__row-mobile-element-1-2, .feature__row-mobile-element-2-1,.feature__row-mobile-element-3-2{
+    display: none;
+}
+
 .feature__img-1{
-    width: 754px;
+    max-width: 754px;
     height: 754px;
     position: relative;
 }
@@ -39,8 +43,6 @@
     margin-top: 8px;
 
 }
-
-
 
 .feature__row-element-1{
     margin-top: 98px;

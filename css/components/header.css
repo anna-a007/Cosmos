@@ -169,6 +169,10 @@
     right: 0;
 }
 
+.symbol-left-m, .symbol-right-m{
+    display: none;
+}
+
 
 .header__container-slider--title {
     font-family: 'Montserrat';
@@ -192,22 +196,24 @@
 .header__container-slider-swiper{
     display: flex;
     flex-direction: column;
-    width: 933px;
+    max-width: 933px;
     height: 579px;
     margin: 0 auto;
     transform: translateY(63px);
+    
 
 }
 
 .picture_1 {
     box-shadow: 0px 4px 30px rgba(246, 193, 66, 0.3);
     border-radius: 20px;
-    filter: brightness(70%); 
+    filter: brightness(70%);
+    max-width: 100%; 
 }
 
 
 .picture{
-    width: 614px;
+    max-width: 614px;
     height: 401px;
     position: relative;
     margin: 0 auto;

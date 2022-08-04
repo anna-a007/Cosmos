@@ -1,0 +1,63 @@
+@media (max-width: 414px) {
+    .header__container-slider {
+        width: 414px;
+        height: 600px;
+    }
+    .header__container-slider--title {
+        font-size: 34px;
+        line-height: 41px;
+        text-align: center;
+        width: 354px;
+        height: 82px;
+        margin-left: 30px;
+    }
+
+    .symbol-left,
+    .symbol-right {
+        display: none;
+    }
+
+    .picture::before,
+    .picture::after {
+        display: none;
+    }
+
+
+    .symbol-left-m {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .symbol-right-m {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    .swiper-slide h4 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        width: 278px;
+        height: 19px;
+        left: 66px;
+        top: 216px;
+    }
+
+    .paragraph_1 {
+        font-size: 12px;
+        line-height: 15px;
+        width: 129px;
+        height: 15px;
+        top: 245px;
+        left: 144px;
+    }
+
+    .swiper-pagination1 {
+        margin-left: 177px;
+        margin-top: -112px;
+    }
+}
