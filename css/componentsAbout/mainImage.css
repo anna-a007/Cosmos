@@ -4,17 +4,20 @@
 }
 
 .main__wrapper {
-    width: 1040px;
+    max-width: 1040px;
     margin: 0 auto;
 }
 
 .main__image {
     margin-top: 57px;
     position: relative;
+
 }
 
 .main__image-main {
     border-radius: 20px;
+    max-width: 100%;
+    height: auto;
 }
 
 .main__image::before {
@@ -85,8 +88,8 @@
 }
 
 .general__mission p {
-    width: 415px;
-    height: 288px;
+    max-width: 415px;
+    min-height: 288px;
 }
 
 
@@ -106,8 +109,8 @@
 }
 
 .general__vision p {
-    width: 415px;
-    height: 288px;
+    max-width: 415px;
+    min-height: 288px;
 }
 
 
@@ -165,13 +168,6 @@
     left: -10px;
 }
 
-/* .rectangle-blue{
-    position: absolute;
-    z-index: -1;
-    bottom: -10px;
-    right: -10px;
-    
-} */
 
 .founders__info {
     box-shadow: inset -1px 0px 0px rgba(0, 0, 0, 0.1);
