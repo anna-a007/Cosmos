@@ -1,0 +1,65 @@
+/* @media (max-width: 768px){
+    .courses__list-item{
+        display: none;
+    }
+
+    .button2{
+        margin-left: 270px;
+    }
+
+    .courses__btn{
+        margin-left: 260px;
+    }
+
+    .swiper-pagination1{
+        margin-left: 348px;
+    }
+
+    .popular__courses-list--item {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, max-content);
+    }
+
+    .item{
+        margin: 0 auto;
+    }
+
+    .popular__courses h2{
+        margin-top: 50px;
+    }
+
+    .popular__courses{
+        background-position: right -117px bottom -30px;
+    }
+
+    .money__management{
+        margin-top: 30px;
+    }
+
+    .money-management-info{
+        margin-left: -96px;
+    }
+
+    .button3{
+        margin-left: 300px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+} */
