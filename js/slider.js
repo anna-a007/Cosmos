@@ -10,11 +10,11 @@ const swiper = new Swiper(".swiper-container.swiper-one", {
     el: ".swiper-pagination1",
     clicable: true,
   },
-  autoplay:{
-    delay:2500,
-    disableOnIteraction:false,
+  // autoplay:{
+  //   delay:2500,
+  //   disableOnIteraction:false,
 
-  }
+  // }
 });
 
 var swiperTwo = new Swiper(".swiper-container2.swiper-two", {

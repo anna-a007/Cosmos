@@ -23,8 +23,6 @@
     display: none;
 }
 
-
-
 .feature__img-1 {
     width: 754px;
     height: 754px;
@@ -186,7 +184,7 @@
 
 .feature__row-3 {
     display: flex;
-    width: 1186px;
+    max-width: 1186px;
     height: 754px;
     margin: 0px 54px 0px 139px;
 }
@@ -267,11 +265,12 @@
 }
 
 @media (max-width: 1180px) {
-
     .feature__row-1 {
         flex-direction: column-reverse;
         align-items: center;
         margin-top: 120px;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .feature__row-2 {
@@ -287,31 +286,37 @@
         transform: translateY(150px);
     }
 
-    .feature__img-1,.feature__img-2, .feature__img-3 {
+    .feature__img-1,
+    .feature__img-2,
+    .feature__img-3 {
         height: 385px;
     }
 
-    .feature__row-element-1, .feature__row-element-2, .feature__row-element-3{
+    .feature__row-element-1,
+    .feature__row-element-2,
+    .feature__row-element-3 {
         margin-top: 40px;
         transform: translateX(240px);
     }
 
-    .feature__info-1,.feature__info-2, .feature__info-3{
+    .feature__info-1,
+    .feature__info-2,
+    .feature__info-3 {
         width: 540px;
         height: 500px;
     }
 
-    .feature__info-1 h2{
+    .feature__info-1 h2 {
         font-size: 44px;
         text-align: center;
     }
 
-    .feature__info-2 h2{
+    .feature__info-2 h2 {
         font-size: 44px;
         text-align: center;
     }
 
-    .feature__info-3 h2{
+    .feature__info-3 h2 {
         font-size: 44px;
         text-align: center;
     }
@@ -328,23 +333,29 @@
         text-align: center;
     }
 
-    .img-second, .img-second-2, .img-second-3{
+    .img-second,
+    .img-second-2,
+    .img-second-3 {
         margin-top: 10px;
         width: 380px;
-        margin-left: 175px;     
+        margin-left: 175px;
     }
 
-    .img-first, .img-first-2, .img-first-3{
+    .img-first,
+    .img-first-2,
+    .img-first-3 {
         top: 45px;
         left: 203px;
         width: 300px;
     }
 
-    .features__btn-1, .features__btn-2, .features__btn-3 {
+    .features__btn-1,
+    .features__btn-2,
+    .features__btn-3 {
         transform: translateX(200px);
     }
 
     .features__container {
-        height: 2500px; 
-}
+        height: 2500px;
+    }
 }

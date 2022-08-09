@@ -372,6 +372,57 @@
     }
 }
 
+@media (max-width: 768px) {
+    .popular__courses-container h2 {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 720px) {
+    .popular__courses-container h2 {
+        font-size: 38px;
+        margin-top: 30px;
+    }
+
+    .popular__courses-list--item {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, max-content);
+        margin-bottom: 20px;
+    }
+
+    .popular__courses {
+        background: url("/img/mobile/line-mobile.svg") no-repeat;
+        background-position: right 63px bottom 115px;
+    }
+}
+
+@media (max-width: 426px) {
+    .popular__courses-container h2 {
+        font-size: 30px;
+        line-height: 37px;
+        font-weight: 800;
+        width: 354px;
+        height: 74px;
+        margin: 0 auto;
+        transform: translateY(53px);
+    }
+
+    .item {
+        width: 162px;
+        height: 162px;
+    }
+
+    .popular__courses {
+        background-position: right 7px bottom 80px;
+        height: 723px;
+    }
+    .popular__courses-list--item {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, max-content);
+        margin-top: 40px;
+    }
+}
+
 /*Learn Money Management*/
 
 .swiper-container3 {
@@ -569,5 +620,52 @@
 
     .button3 {
         margin-left: 475px;
+    }
+}
+@media (max-width: 768px) {
+    .courses__container h2 {
+        font-size: 38px;
+    }
+
+    .money__management-tittle {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .money__management-paragraph {
+        margin-top: 0;
+        letter-spacing: 0;
+    }
+
+    .button3 {
+        margin-left: 300px;
+    }
+}
+
+@media (max-width: 426px) {
+    .money__management-tittle {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    .money__management-paragraph {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        width: 334px;
+        height: 188px;
+        letter-spacing: 0.02em;
+        margin-top: 31px;
+    }
+
+    .money-management-info {
+        margin-left: -50px;
+        margin-top: -15px;
+    }
+
+    .button3 {
+        margin-left: 125px;
+        margin-top: 25px;
     }
 }

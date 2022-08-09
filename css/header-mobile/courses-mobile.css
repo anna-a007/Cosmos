@@ -1,65 +1,49 @@
-/* @media (max-width: 768px){
-    .courses__list-item{
+@media (max-width: 768px) {
+    .courses {
+        height: 650px;
+    }
+    .courses__container h2 {
+        font-size: 38px;
+    }
+
+    .courses__list-item {
         display: none;
     }
 
-    .button2{
-        margin-left: 270px;
+    .button2 {
+        margin-left: 285px;
+    }
+
+    .courses__btn {
+        margin-left: 273px;
+    }
+}
+
+@media (max-width: 681px) {
+    .button2 {
+        margin-left: 220px;
+    }
+
+    .courses__btn {
+        margin-left: 210px;
+    }
+
+    .courses__container h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 426px) {
+    .courses__container h2 {
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    .button2 {
+        margin-left: 95px;
     }
 
     .courses__btn{
-        margin-left: 260px;
+        margin-left: 85px;
     }
-
-    .swiper-pagination1{
-        margin-left: 348px;
-    }
-
-    .popular__courses-list--item {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, max-content);
-    }
-
-    .item{
-        margin: 0 auto;
-    }
-
-    .popular__courses h2{
-        margin-top: 50px;
-    }
-
-    .popular__courses{
-        background-position: right -117px bottom -30px;
-    }
-
-    .money__management{
-        margin-top: 30px;
-    }
-
-    .money-management-info{
-        margin-left: -96px;
-    }
-
-    .button3{
-        margin-left: 300px;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-} */
+}
