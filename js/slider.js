@@ -18,9 +18,9 @@ const swiper = new Swiper(".swiper-container.swiper-one", {
 });
 
 var swiperTwo = new Swiper(".swiper-container2.swiper-two", {
-  slidesPerView: 4,
-  spaceBetween: 30,
-  slidesPerGroup: 1,
+  slidesPerView: 1,
+  spaceBetween: 10,
+  
   loop: true,
   loopFillGroupWithBlank: true,
   navigation: {
@@ -31,7 +31,22 @@ var swiperTwo = new Swiper(".swiper-container2.swiper-two", {
     el: ".modal-swiper-pagination",
     clicable: true,
   },
-  
+
+  breakpoints: {
+    640: {
+    slidesPerView: 2,
+    spaceBetween: 10,
+        },
+    768: {
+    slidesPerView: 3,
+    spaceBetween: 10,
+          },
+    1100: {
+    slidesPerView: 4,
+    spaceBetween: 10,
+          },
+  },
+    
 });
 
 const swiperThree = new Swiper(".swiper-container3.swiper-three", {

@@ -214,7 +214,7 @@
 
 .picture{
     max-width: 614px;
-    height: 401px;
+    height: auto;
     position: relative;
     margin: 0 auto;
 }
@@ -270,12 +270,7 @@
 
 
 .swiper-pagination1{
-    position: static;
-    width: 91px;
-    height: 11px;
-    margin-top: 40px;
-    margin-left: 421px;
-
+    margin-top: 10px;
 }
 
 
@@ -285,9 +280,6 @@
 
 
 .swiper-slide h4 {
-    position: absolute;
-    top: -70px;
-    left: 144px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -301,9 +293,7 @@
 }
 
 .paragraph_1 {
-    position: absolute;
-    top: 367px;
-    left: 232px;
+
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -316,5 +306,13 @@
     top: 367px;
     right: 247px;
 
+}
+
+.picture__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 60px;
+    margin-top: -70px;
 }
 

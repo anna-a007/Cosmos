@@ -4,7 +4,7 @@
         height: 600px;
     }
     .header__container-slider--title {
-        font-size: 34px;
+        font-size: 30px;
         line-height: 41px;
         text-align: center;
         width: 354px;
@@ -58,9 +58,10 @@
         left: 144px;
     }
 
-    .swiper-pagination1 {
-        display: block;
-        margin-left: 177px;
-        margin-top: -112px;
+
+
+    .picture__info{
+        align-items: center;
+
     }
 }

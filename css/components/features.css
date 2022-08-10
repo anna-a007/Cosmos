@@ -359,3 +359,18 @@
         height: 2500px;
     }
 }
+
+/* @media (max-width: 650px) {
+    .feature__info-1 h2 {
+        font-size: 33px;
+        
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .feature__info-1 p {
+        
+        text-align: center;
+        
+    }
+} */

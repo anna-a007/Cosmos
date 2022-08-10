@@ -1,41 +1,52 @@
-@media (max-width: 768px){
-    .header__container-slider--title{
+@media (max-width: 768px) {
+    .header__container-slider--title {
         font-size: 38px;
     }
 
-    .swiper-pagination1{
-        margin-left: 353px;
+    .swiper-pagination1 {
+        /* margin-left: 353px; */
     }
 }
 
-@media (max-width: 681px){
-    .header__container-slider--title{
+@media (max-width: 681px) {
+    .header__container-slider--title {
         font-size: 30px;
     }
 
-    .picture::after{
+    .swiper-pagination1 {
+        margin-top: 0px;
+    }
+
+    .picture__info {
+        justify-content: space-evenly;
+    }
+
+    .picture::after {
         display: none;
     }
 
-    .picture::before{
+    .picture::before {
         display: none;
     }
 
-    .swiper-pagination1{
-        margin-left: 305px;
+    .picture__info h4 {
+        font-size: 16px;
+    }
+
+    .paragraph_1 {
+        font-size: 12px;
     }
 }
 
-@media (max-width: 650px){
+/* @media (max-width: 650px){
     .swiper-slide h4{
         display: none;
     }
 
-    .paragraph_1, .swiper-pagination1{
+    .paragraph_1,{
         display: none; 
     }
-}
-
+} */
 
 .header__mobile {
     display: none;
@@ -57,7 +68,6 @@
     display: none;
 }
 
-
 @media (max-width: 426px) {
     .main__contact {
         height: 1535px;
@@ -77,6 +87,7 @@
 
     .header__mobile {
         display: block;
+        max-width: 100%;
     }
 
     .header__mobile-buttom {
@@ -86,7 +97,6 @@
     .header__humburger {
         display: block;
         z-index: 16;
-
     }
 
     .figure-left,
@@ -185,8 +195,6 @@
         margin-bottom: 40px;
     }
 
-
-
     .main__contact {
         background: url("/img/News/mobile-news/background.svg") no-repeat;
     }
@@ -205,15 +213,14 @@
     }
 
     .header__mobile-menu.active {
-        transform: translateX(0);     
+        transform: translateX(0);
     }
 
-    .header__humburger:active  {
+    .header__humburger:active {
         position: relative;
         top: 2px;
         transition: color 0.2s;
     }
-
 
     .mobile__menu {
         display: flex;
@@ -221,10 +228,9 @@
         align-items: center;
         gap: 20px;
         transform: translateY(120px);
-        
     }
 
-    .mobile__menu li a{
+    .mobile__menu li a {
         text-decoration: none;
         font-size: 30px;
         font-family: "Inter";
@@ -233,8 +239,7 @@
         color: #12182a;
     }
 
-    .mobile__menu li a:hover{
+    .mobile__menu li a:hover {
         font-weight: 700;
-
     }
 }

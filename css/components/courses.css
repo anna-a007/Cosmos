@@ -9,18 +9,20 @@
 
 .courses__container {
     max-width: 1040px;
-    /* height: 709px; */
+    height: 709px;
     margin: 0px auto;
     padding: 0px 8px;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+    overflow-x: clip;
 }
 
 .swiper-container2 {
     margin-top: 30px;
-    width: 1038px;
+    max-width: 1038px;
     height: 286px;
+    position: relative;
+    text-align: -webkit-center;
 }
 
 /*---------------------------------slids----------------------------------------------*/
@@ -174,6 +176,7 @@
     width: 36px;
     height: 36px;
     position: relative;
+   
 }
 
 .modal-swiper-button-prev::after {
@@ -181,31 +184,44 @@
     top: 9px;
     right: 13px;
     position: absolute;
+    
 }
 
-.button2 {
+.botton-2{
     display: flex;
-    /* gap: 131px; */
+    max-width: 203px;
+    justify-content: center;
     margin-top: 40px;
-    margin-left: 419px;
+    gap: 131px;
 }
 
-.modal-swiper-pagination {
-    margin-bottom: 0;
-    position: static;
-    max-width: 91px;
-    margin: 6px 20px 0px 20px;
+
+.modal-swiper-pagination .swiper-pagination-bullet { 
+    background: #12182A;
+    text-align: center;
+    
 }
 
-.button2 .swiper-pagination-bullet {
+.modal-swiper-pagination{
+    transform: translateY(76px);
+}
+
+
+
+
+/* .button2 .swiper-pagination-bullet {
     background: var(--color-main);
-}
+} */
 
 /*---------------------------------slids ENDS----------------------------------------------*/
-
+.courses__batton{
+    /* display: flex;
+    flex-direction: column; */
+    
+}
 .courses__btn {
     margin-top: 40px;
-    margin-left: 405px;
+    /* margin-left: 405px; */
     text-decoration: none;
     font-family: "Inter";
     font-style: normal;
@@ -393,6 +409,33 @@
     .popular__courses {
         background: url("/img/mobile/line-mobile.svg") no-repeat;
         background-position: right 63px bottom 115px;
+    }
+}
+@media (max-width: 490px) {
+    .popular__courses-container h2 {
+        font-size: 30px;
+        line-height: 37px;
+        font-weight: 800;
+        width: 354px;
+        height: 74px;
+        margin: 0 auto;
+        transform: translateY(53px);
+    }
+
+    .popular__courses-list--item {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, max-content);
+        margin-top: 40px;
+    }
+
+    .item {
+        width: 162px;
+        height: 162px;
+    }
+
+    .popular__courses {
+        background-position: right 7px bottom 80px;
+        height: 723px;
     }
 }
 
@@ -642,7 +685,13 @@
     }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 650px) {
+    .button3 {
+        margin-left: 230px;
+    }
+}
+
+@media (max-width: 530px) {
     .money__management-tittle {
         font-weight: 700;
         font-size: 32px;
