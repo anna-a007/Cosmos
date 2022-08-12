@@ -176,7 +176,6 @@
     width: 36px;
     height: 36px;
     position: relative;
-   
 }
 
 .modal-swiper-button-prev::after {
@@ -184,44 +183,32 @@
     top: 9px;
     right: 13px;
     position: absolute;
-    
 }
 
-.botton-2{
+.botton-2 {
     display: flex;
     max-width: 203px;
     justify-content: center;
-    margin-top: 40px;
     gap: 131px;
+    transform: translateY(40px);
 }
 
-
-.modal-swiper-pagination .swiper-pagination-bullet { 
-    background: #12182A;
+.modal-swiper-pagination .swiper-pagination-bullet {
+    background: #12182a;
     text-align: center;
-    
 }
 
-.modal-swiper-pagination{
-    transform: translateY(76px);
+.modal-swiper-pagination {
+    max-width: 100px;
+    transform: translateX(51px);
 }
-
-
-
-
-/* .button2 .swiper-pagination-bullet {
-    background: var(--color-main);
-} */
 
 /*---------------------------------slids ENDS----------------------------------------------*/
-.courses__batton{
-    /* display: flex;
-    flex-direction: column; */
-    
+.courses__button {
+    margin-top: 100px;
 }
 .courses__btn {
     margin-top: 40px;
-    /* margin-left: 405px; */
     text-decoration: none;
     font-family: "Inter";
     font-style: normal;
@@ -409,6 +396,7 @@
     .popular__courses {
         background: url("/img/mobile/line-mobile.svg") no-repeat;
         background-position: right 63px bottom 115px;
+        height: 700px;
     }
 }
 @media (max-width: 490px) {
@@ -469,26 +457,26 @@
 /*Learn Money Management*/
 
 .swiper-container3 {
-    width: 1440px;
-    height: 535px;
+    max-width: 1440px;
+    height: auto;
     margin: 0 auto;
-    overflow: hidden;
+    overflow-x: hidden;
     position: relative;
 }
 
 .money1 {
     background: url("../../img/Home/learn-money.jpg");
-    width: 1440px;
+    max-width: 1440px;
     height: 535px;
 }
 
 .money2 {
-    background: url("../../img/Home/slide3-2.jpg");
-    width: 1440px;
+    background: url("../../img/Home/slide3-2.png");
+    max-width: 1440px;
     height: 535px;
     position: relative;
 }
-
+/* 
 .money2:before {
     content: "";
     display: block;
@@ -500,16 +488,16 @@
     right: 0;
     bottom: 0;
     background-color: rgba(60, 72, 95, 0.8);
-}
+} */
 
 .money3 {
-    background: url("../../img/Home/slide3-3.jpg");
-    width: 1440px;
+    background: url("../../img/Home/slide3-3.png");
+    max-width: 1440px;
     height: 535px;
     position: relative;
 }
 
-.money3:before {
+/* .money3:before {
     content: "";
     display: block;
     width: 100%;
@@ -520,16 +508,16 @@
     right: 0;
     bottom: 0;
     background-color: rgba(60, 72, 95, 0.8);
-}
+} */
 
 .money4 {
-    background: url("../../img/Home/slide3-4.jpg");
-    width: 1440px;
+    background: url("../../img/Home/slide3-4.png");
+    max-width: 1440px;
     height: 535px;
     position: relative;
 }
 
-.money4:before {
+/* .money4:before {
     content: "";
     display: block;
     width: 100%;
@@ -540,15 +528,17 @@
     right: 0;
     bottom: 0;
     background-color: rgba(60, 72, 95, 0.8);
-}
+} */
 
 .money-management-info {
     display: flex;
     flex-direction: column;
-    transform: translate(201px, 60px);
-    width: 400px;
-    height: 349px;
+    /* width: 400px;
+    height: 349px;  */
+    max-width: 100%;
+    margin-left: 201px;
 }
+
 
 .money__management-tittle {
     font-family: "Montserrat";
@@ -558,8 +548,9 @@
     line-height: 60px;
     letter-spacing: 0.02em;
     color: var(--font-color-2);
-    width: 400px;
-    height: 120px;
+    max-width: 400px;
+    height: auto;
+    margin-top: 60px;
 }
 
 .money__management-paragraph {
@@ -570,8 +561,8 @@
     line-height: 32px;
     letter-spacing: 0.02em;
     color: var(--font-color-2);
-    width: 400px;
-    height: 128px;
+    max-width: 400px;
+    height: auto;
     margin-top: 25px;
 }
 
@@ -604,11 +595,10 @@
 
 .button3 {
     display: flex;
-    margin-left: 619px;
+    /* margin-left: 619px; */
     position: absolute;
-    top: 0;
-    left: 0;
-    top: 439px;
+    bottom: 11.2%;
+    left: 42.99%;
     z-index: 1;
 }
 .money-management-button-next {
@@ -658,14 +648,71 @@
 
 @media (max-width: 1100px) {
     .money-management-info {
-        transform: translate(95px, 60px);
-    }
-
-    .button3 {
-        margin-left: 475px;
+        margin-left: 100px;
     }
 }
-@media (max-width: 768px) {
+
+@media (max-width: 720px) {
+    .money-management-info {
+        margin-left: 40px;
+    }
+
+    .money__management-tittle {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    .money__management-paragraph {
+        width: 334px;
+        height: 188px;
+    }
+}
+
+@media (max-width: 500px) {
+    .swiper-container3
+    {height: auto;}
+    
+
+    .money1{
+        background: url'(../../img/Home/learn-money.jpg)';
+        background-size: cover;
+        height: 603px;
+    }
+
+    .money2{
+        background: url'(../../img/Home/slide3-2.jpg)';
+        background-size: cover;
+        height: 603px;
+    }
+
+    .money3{
+        background: url'(../../img/Home/slide3-3.jpg)';
+        background-size: cover;
+        height: 603px;
+    }
+
+    .money4{
+        background: url'(../../img/Home/slide3-4.jpg)';
+        background-size: cover;
+        height: 603px;
+    }
+
+    .money__management-btn {
+        margin-top: 40px;
+    }
+
+    .money__management-paragraph {
+        margin-top: 31px;
+    }
+
+    .button3{
+        left: 30%;
+    }
+}
+
+
+/* @media (max-width: 768px) {
     .courses__container h2 {
         font-size: 38px;
     }
@@ -717,4 +764,4 @@
         margin-left: 125px;
         margin-top: 25px;
     }
-}
+} */

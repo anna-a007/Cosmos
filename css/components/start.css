@@ -101,6 +101,28 @@
     }
 }
 
+@media (max-width: 500px) {
+
+    .start__subtitle {
+        display: none;
+    }
+
+
+    .start__mobile-subtitle {
+        display: block;
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        color: #ffffff;
+        mix-blend-mode: normal;
+        z-index: 3;
+        margin-top: 23px;
+    }
+}
+
 @media (max-width: 426px) {
     .start__title {
         width: 344px;
@@ -112,7 +134,7 @@
         margin-top: 70px;
     }
 
-    .start__subtitle {
+    /* .start__subtitle {
         display: none;
     }
 
@@ -128,7 +150,7 @@
         mix-blend-mode: normal;
         z-index: 3;
         margin-top: 23px;
-    }
+    } */
 
     .start__btn{
         margin-top: 27px;

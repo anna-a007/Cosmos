@@ -1,15 +1,16 @@
 @media (max-width: 426px) {
     .header__container-slider {
-        width: 414px;
+        max-width: 414px;
         height: 600px;
     }
     .header__container-slider--title {
         font-size: 30px;
         line-height: 41px;
         text-align: center;
-        width: 354px;
-        height: 82px;
-        margin-left: 30px;
+        /* width: 354px;
+        height: 82px; */
+        /* margin-left: 30px; */
+        margin: 0 auto;
     }
 
     .symbol-left,
@@ -62,6 +63,29 @@
 
     .picture__info{
         align-items: center;
-
     }
+
+    @media (max-width: 420px){
+        .picture{
+            max-width: 320px;
+        }
+    
+        /* .swiper-button-next {
+            width: 40px;
+            height: 40px;
+            right: 38px;
+        }
+    
+        .swiper-button-prev{
+            width: 40px;
+            height: 40px;
+            left: 38px;
+        } */
+    
+        .header__container-slider--title{
+            font-size: 25px;
+            width: 230px;
+        }
+    }
+    
 }
