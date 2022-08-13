@@ -1,11 +1,12 @@
 .main {
     width: 1440px;
     background: url('/img/Courses/background.svg') no-repeat;
-  
+
 }
 
 .main-wrapper {
     display: flex;
+
 
 }
 
@@ -71,8 +72,6 @@
     /* display: block;
     height: 66px;
     width: 233px; */
- 
- 
 }
 
 
