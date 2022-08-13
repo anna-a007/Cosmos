@@ -1,53 +1,5 @@
-@media (max-width: 768px) {
-    .header__container-slider--title {
-        font-size: 38px;
-    }
-
-    .swiper-pagination1 {
-        /* margin-left: 353px; */
-    }
-}
-
-@media (max-width: 681px) {
-    .header__container-slider--title {
-        font-size: 30px;
-        line-height: 41px;
-    }
-
-    .swiper-pagination1 {
-        margin-top: 0px;
-    }
-
-    .picture__info {
-        justify-content: space-evenly;
-    }
-
-    .picture::after {
-        display: none;
-    }
-
-    .picture::before {
-        display: none;
-    }
-
-    .picture__info h4 {
-        font-size: 16px;
-    }
-
-    .paragraph_1 {
-        font-size: 12px;
-    }
-}
-
-@media (max-width: 535px){
-    .header__container-top-phone {
-        display: none;
-    }
-}
-
 .header__mobile {
     display: none;
-    /* width: 414px; */
     height: 60px;
     background: #ffffff;
     box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.1);
@@ -65,9 +17,79 @@
     display: none;
 }
 
-@media (max-width: 535px) {
+@media (max-width: 1277px) {
+    .figure-left,
+    .figure-right {
+        display: none;
+    }
+}
+
+@media (max-width: 1085px) {
+    .contact__title,
+    .contact__paragraph {
+        padding: 0px 10px 0px 10px;
+    }
+
+    @media (max-width: 950px) {
+        .main__contact {
+            height: 1080px;
+        }
+        .form__contact {
+            width: 354px;
+            height: 948px;
+            margin: 0 auto;
+            transform: translateY(0px);
+        }
+
+        .form__contact-caption {
+            margin-top: 30px;
+            margin-left: 31px;
+        }
+
+        .form__fields {
+            margin: 0;
+        }
+
+        .form__contact-caption:before {
+            width: 294px;
+        }
+
+        .field_name {
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+        .field__wrapper {
+            display: block;
+        }
+
+        input[type="text"],
+        [type="number"],
+        [name="reason"] {
+            width: 294px;
+            height: 50px;
+            margin-top: 10px;
+            margin-left: 30px;
+        }
+
+        textarea[name="message"] {
+            width: 294px;
+            height: 150px;
+            margin-left: 30px;
+        }
+
+        input[name="submit_btn"] {
+            margin-top: 30px;
+            width: 122px;
+            height: 50px;
+            margin-left: 30px;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+@media (max-width: 780px) {
     .main__contact {
-        height: 1535px;
+        height: 1550px;
     }
 
     .contact__wrapper {
@@ -78,14 +100,14 @@
         justify-content: space-between;
         margin: 0 auto;
     }
-    .header__container {
-        display: none;
-    }
-
-    .header__mobile {
-        display: block;
-        max-width: 100%;
-    }
+    /* .header__container {
+            display: none;
+        }
+    
+        .header__mobile {
+            display: block;
+            max-width: 100%;
+        } */
 
     .header__mobile-buttom {
         display: none;
@@ -193,7 +215,7 @@
     }
 
     .main__contact {
-        background: url("/img/News/mobile-news/background.svg") no-repeat;
+        background-size: auto 267px;
     }
 
     .header__mobile-menu {
@@ -238,5 +260,86 @@
 
     .mobile__menu li a:hover {
         font-weight: 700;
+    }
+
+    .contact__paragraph, .contact__title{
+        padding: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__container-slider--title {
+        font-size: 38px;
+    }
+
+    .swiper-pagination1 {
+        /* margin-left: 353px; */
+    }
+
+  
+
+}
+
+@media (max-width: 681px) {
+    .header__container-slider--title {
+        font-size: 30px;
+        line-height: 41px;
+    }
+
+    .swiper-pagination1 {
+        margin-top: 0px;
+    }
+
+    .picture__info {
+        justify-content: space-evenly;
+    }
+
+    .picture::after {
+        display: none;
+    }
+
+    .picture::before {
+        display: none;
+    }
+
+    .picture__info h4 {
+        font-size: 16px;
+    }
+
+    .paragraph_1 {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 535px) {
+    .header__container-top-phone {
+        display: none;
+    }
+}
+
+@media (max-width: 525px) {
+    .header__container {
+        display: none;
+    }
+
+    .header__mobile {
+        display: block;
+        max-width: 100%;
+    }
+
+    .main__contact {
+        height: 1550px;
+    }
+
+
+    .contact__title {
+        font-size: 34px;
+        line-height: 34px;
+    }
+
+    .contact__paragraph{
+        font-size: 18px;
+        line-height: 30px;
+        padding: 0;
     }
 }
