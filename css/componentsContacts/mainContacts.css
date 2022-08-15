@@ -1,4 +1,4 @@
-.main__contact{
+.main__contact {
     width: 1440px;
     height: 978px;
     background: url('/img/News/background-blue.svg') no-repeat;
@@ -183,7 +183,7 @@ input[name="submit_btn"] {
     margin-top: 30px;
     width: 122px;
     height: 50px;
-    background: var( --color-btn);
+    background: var(--color-btn);
     border-radius: 140px;
     font-family: "Inter";
     font-style: normal;
@@ -199,20 +199,37 @@ input[name="submit_btn"]:hover {
     background-color: rgb(54, 81, 156);
 }
 
-input[name="submit_btn"]:active  {
+input[name="submit_btn"]:active {
     position: relative;
     top: 2px;
     transition: color 0.2s;
 }
 
-.figure-left{
+.figure-left {
     position: absolute;
     top: 37.53px;
     left: 49px;
 }
 
-.figure-right{
+.figure-right {
     position: absolute;
     bottom: 24.6px;
     right: 0;
+}
+
+
+.contact__phone:hover{
+    transition: 0.9s;
+    transform: scale(1.1);
+}
+
+
+.contact__email:hover {
+    transition: 0.9s;
+    transform: scale(1.1);
+}
+
+.contact__location:hover {
+    transition: 0.9s;
+    transform: scale(1.1);
 }
