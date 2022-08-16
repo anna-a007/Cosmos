@@ -18,8 +18,8 @@ const swiper = new Swiper(".swiper-container.swiper-one", {
 });
 
 var swiperTwo = new Swiper(".swiper-container2.swiper-two", {
-  slidesPerView: 1.5,
-  spaceBetween: 10,
+  slidesPerView: 'auto',
+  spaceBetween: 20,
   
   loop: true,
   loopFillGroupWithBlank: true,
@@ -29,7 +29,7 @@ var swiperTwo = new Swiper(".swiper-container2.swiper-two", {
   },
   pagination: {
     el: ".modal-swiper-pagination",
-    clicable: true,
+  
   },
 
   breakpoints: {

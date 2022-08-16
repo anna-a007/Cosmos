@@ -5,6 +5,10 @@
     box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.1);
 }
 
+.header__humburger {
+    display: none;
+}
+
 .header__mobile-top {
     display: flex;
     justify-content: space-between;
@@ -105,23 +109,86 @@
         margin: 0 auto;
     }
 
-    /* .header__container {
-            display: none;
-        }
-    
-        .header__mobile {
-            display: block;
-            max-width: 100%;
-        } */
-
     .header__mobile-buttom {
         display: none;
     }
 
-    .header__humburger {
+    /* .header__humburger {
         display: block;
         z-index: 16;
+    } */
+
+    .header__humburger {
+        z-index: 16;
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 18px;
+        cursor: pointer;
+        transform: scale(-1, 1);
     }
+
+
+    
+    .header__humburger::before,
+    .header__humburger::after {
+        left: 0;
+        position: absolute;
+        height: 13%;
+        width: 100%;
+        background-color: #434755;
+        transition: all 0.3s ease 0s;
+
+    }
+
+    .header__humburger span {
+        left: 0;
+        position: absolute;
+        height: 13%;
+        width: 65%;
+        background-color: #434755;
+        transition: all 0.3s ease 0s;
+        /* transform: scale(-1, 1); */
+
+    }
+
+    .header__humburger::before,
+    .header__humburger::after {
+        content: '';
+    }
+
+    .header__humburger::before {
+        top: 0;
+    }
+
+    .header__humburger::after {
+        bottom: 0;
+    }
+
+
+    .header__humburger span {
+        top: 50%;
+        transform: scale(1) translate(0px, -50%);
+    }
+
+    .header__humburger._active span {
+        transform: scale(0) translate(0px, -50%);
+    }
+
+    .header__humburger._active::before {
+        top: 50%;
+        transform: rotate(-45deg) translate(0px, -50%);
+    }
+
+    .header__humburger._active::after {
+        bottom: 50%;
+        transform: rotate(45deg) translate(0px, 50%);
+    }
+
+
+
+
+
 
     .figure-left,
     .figure-right {

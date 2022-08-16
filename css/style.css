@@ -15,3 +15,7 @@
     max-width: 100%;
 }
 
+body._lock{
+    overflow: hidden;
+}
+

@@ -25,6 +25,10 @@
     text-align: -webkit-center;
 }
 
+.swiper-slide{
+    width: auto;
+}
+
 /*---------------------------------slids----------------------------------------------*/
 
 .swiper-slide a {
