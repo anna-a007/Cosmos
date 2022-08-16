@@ -340,7 +340,7 @@
     select[name="list__courses"] {
         color: rgb(116, 114, 114);
         appearance: none;
-        background: url("/img/News/arrow-bottom.svg") no-repeat 95% 50%;
+        /* background: url("/img/News/arrow-bottom.svg") no-repeat 95% 50%; */
         padding: 0 16px;
         font-family: 'Inter';
         font-style: normal;
@@ -349,6 +349,24 @@
         line-height: 26px;
        
     }
+
+    .courses__mobile{
+        position: relative;
+    }
+
+    .courses__mobile::before{
+        content:url('/img/Courses/keyboard_arrow_down\ -\ material.svg');
+        position: absolute;
+        top: 50%;
+        right: 15px;
+        transform: translateY(-50%);
+        /*cнимаем клик с треугольника*/
+        pointer-events: none;
+
+    }
+
+
+
 
     .list__courses option{
         width: 100px;
