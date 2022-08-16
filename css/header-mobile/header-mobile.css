@@ -113,10 +113,7 @@
         display: none;
     }
 
-    /* .header__humburger {
-        display: block;
-        z-index: 16;
-    } */
+/*---------------------бургер--------------------------*/
 
     .header__humburger {
         z-index: 16;
@@ -127,9 +124,7 @@
         cursor: pointer;
         transform: scale(-1, 1);
     }
-
-
-    
+    .header__humburger span,
     .header__humburger::before,
     .header__humburger::after {
         left: 0;
@@ -138,19 +133,8 @@
         width: 100%;
         background-color: #434755;
         transition: all 0.3s ease 0s;
-
     }
 
-    .header__humburger span {
-        left: 0;
-        position: absolute;
-        height: 13%;
-        width: 65%;
-        background-color: #434755;
-        transition: all 0.3s ease 0s;
-        /* transform: scale(-1, 1); */
-
-    }
 
     .header__humburger::before,
     .header__humburger::after {
@@ -185,10 +169,7 @@
         transform: rotate(45deg) translate(0px, 50%);
     }
 
-
-
-
-
+/*-----------------------------------------------*/
 
     .figure-left,
     .figure-right {
