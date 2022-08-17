@@ -19,7 +19,7 @@ const swiper = new Swiper(".swiper-container.swiper-one", {
 
 var swiperTwo = new Swiper(".swiper-container2.swiper-two", {
   slidesPerView: 'auto',
-  spaceBetween: 20,
+  spaceBetween: 30,
   
   loop: true,
   loopFillGroupWithBlank: true,
@@ -39,11 +39,11 @@ var swiperTwo = new Swiper(".swiper-container2.swiper-two", {
         },
     768: {
     slidesPerView: 3,
-    spaceBetween: 10,
+    // spaceBetween: 10,
           },
-    1100: {
+    1000: {
     slidesPerView: 4,
-    spaceBetween: 10,
+    // spaceBetween: 10,
           },
   },
     
@@ -91,3 +91,6 @@ var swiperFour = new Swiper(".swiper-container4.swiper-four", {
 
   // }
 });
+
+
+

@@ -19,3 +19,32 @@ body._lock{
     overflow: hidden;
 }
 
+.scroll-btn{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    background-color:rgb(92, 92, 248);
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    cursor: pointer;
+    z-index: 5;
+    display: none;
+}
+
+.scroll-btn:hover{
+    background: rebeccapurple;
+}
+
+
+.scroll-btn.active{
+    display: block;
+}
+
+.fa-arrow-up-long{
+    color: white;
+   
+   
+}
+

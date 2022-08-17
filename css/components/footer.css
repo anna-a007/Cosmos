@@ -21,6 +21,7 @@
     justify-content: space-between;
 }
 
+
 .footer__container-logo {
     display: flex;
     justify-content: center;
@@ -61,7 +62,7 @@
 }
 
 .footer__container-2 {
-    width: 85px;
+    width: 88px;
     height: 137px;
 }
 
@@ -160,7 +161,6 @@
     }
 
     .footer__container-2 {
-        
         text-align: center;
         margin-top: 20px;
         line-height: 19px;

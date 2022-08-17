@@ -53,19 +53,43 @@
 
         </header>
 
+        <div class="header__mobile">
+            <div class="header__mobile-top">
+                <a href="#"><img src="./img/News/mobile-news/mobile-logo.jpg" alt="logo" /></a>
+                <button class="header__humburger">
+                    <span></span>
+                    <!-- <img src="./img/News/mobile-news/menu.svg" alt="menu"> -->
+                </button>
+                <nav class="header__mobile-menu">
+                    <ul class="mobile__menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="courses(financial_histiory).html">Courses</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="#">Knowledge</a></li>
+                        <li><a href="contact_us.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
         <main class="main__news">
             <section class="news">
                 <h2 class="news__title">News</h2>
                 <div class="news__list">
                     <ul class="news__list-item">
-                        <a class="item-1" href="#"><li class="arrow-left"></li></a>
+                        <button class="item-1" href="#">
+                            <!-- <li class="arrow-left"></li> -->
+                        </button>
                         <a href="news.html"><li>All</li></a>
                         <a href="news(cryptocurrency).html"><li class="news__active">Cryptocurrency</li></a>
                         <a href="news(metaverse).html"><li>Metaverse</li></a>
                         <a href="#"><li>Monetary System</li></a>
                         <a href="news(investment).html"><li>Investment Banking</li></a>
                         <a href="#"><li>NFT</li></a>
-                        <a href="#"><li class="arrow-right"></li></a>
+                        <button class="item-2" href="#">
+                            <!-- <li class="arrow-right"></li> -->
+                        </button>
                     </ul>
 
                 </div>
@@ -186,6 +210,7 @@
 
         <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
         <script src="./js/slider.js"></script>
+        <script src="./js/header-mobile.js"></script>
 
     </div>
 </body>
