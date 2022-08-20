@@ -22,7 +22,6 @@
 }
 
 @media (max-width: 1277px) {
-
     .figure-left,
     .figure-right {
         display: none;
@@ -30,7 +29,6 @@
 }
 
 @media (max-width: 1085px) {
-
     .contact__title,
     .contact__paragraph {
         padding: 0px 10px 0px 10px;
@@ -97,7 +95,8 @@
 
 @media (max-width: 780px) {
     .main__contact {
-        height: 1550px;
+        height: 1590px;
+        background-size: auto 267px;
     }
 
     .contact__wrapper {
@@ -107,6 +106,19 @@
         flex-direction: column;
         justify-content: space-between;
         margin: 0 auto;
+        transform: translateY(0);
+    }
+
+    .form__contact {
+        margin-top: 26px;
+    }
+
+    .contact__paragraph {
+        margin-top: 26px;
+    }
+
+    .contact__phone {
+        margin-top: 26px;
     }
 
     .header__mobile-buttom {
@@ -144,14 +156,11 @@
         background-color: #434755;
         transition: all 0.3s ease 0s;
     }
-
 }
-
-
 
 .header__humburger::before,
 .header__humburger::after {
-    content: '';
+    content: "";
 }
 
 .header__humburger::before {
@@ -161,7 +170,6 @@
 .header__humburger::after {
     bottom: 0;
 }
-
 
 .header__humburger span {
     top: 50%;
@@ -184,106 +192,106 @@
 
 /*-----------------------------------------------*/
 
-.figure-left,
+/* .figure-left,
 .figure-right {
     display: none;
-}
+} */
 
-.form__contact-caption {
+/* .form__contact-caption {
     margin-top: 30px;
-}
+} */
 
-.contact__wrapper {
+/* .contact__wrapper {
     transform: translateY(0px);
-}
+} */
 
-.contact__info {
+/* .contact__info {
     margin: 0 auto;
     width: 354px;
     transform: translateY(30px);
-}
+} */
 
-.contact__phone {
+/* .contact__phone {
     width: 354px;
     height: 84px;
     margin-top: 26px;
-}
+} */
 
-.contact__email,
+/* .contact__email,
 .contact__location {
     width: 354px;
     height: 84px;
     margin-top: 10px;
-}
+} */
 
-.contact__paragraph {
+/* .contact__paragraph {
     margin-top: 15px;
     font-size: 18px;
     width: 354px;
     height: 120px;
-}
+} */
 
-.contact-link,
+/* .contact-link,
 .email-link,
 .location-link {
     font-size: 16px;
-}
+} */
 
-.form__contact {
+/* .form__contact {
     width: 354px;
     height: 948px;
     margin: 0 auto;
     transform: translateY(65px);
-}
-
+} */
+/* 
 .form__contact-caption {
     margin-top: 30px;
     margin-left: 31px;
-}
+} */
 
-.form__fields {
+/* .form__fields {
     margin: 0;
-}
+} */
 
-.form__contact-caption:before {
+/* .form__contact-caption:before {
     width: 294px;
-}
+} */
 
-.field_name {
+/* .field_name {
     margin-top: 30px;
     margin-left: 30px;
-}
+} */
 
-.field__wrapper {
+/* .field__wrapper {
     display: block;
-}
+} */
 
-input[type="text"],
+/* input[type="text"],
 [type="number"],
 [name="reason"] {
     width: 294px;
     height: 50px;
     margin-top: 10px;
     margin-left: 30px;
-}
-
+} */
+/* 
 textarea[name="message"] {
     width: 294px;
     height: 150px;
     margin-left: 30px;
-}
+} */
 
-input[name="submit_btn"] {
+/* input[name="submit_btn"] {
     margin-top: 30px;
     width: 122px;
     height: 50px;
     margin-left: 30px;
     margin-bottom: 40px;
-}
+} */
 
-.main__contact {
+/* .main__contact {
     background-size: auto 267px;
-}
+} */
 
 .header__mobile-menu {
     position: fixed;
@@ -329,11 +337,10 @@ input[name="submit_btn"] {
     font-weight: 700;
 }
 
-.contact__paragraph,
+/* .contact__paragraph,
 .contact__title {
     padding: 0;
-}
-}
+} */
 
 @media (max-width: 768px) {
     .header__container-slider--title {
@@ -343,9 +350,6 @@ input[name="submit_btn"] {
     .swiper-pagination1 {
         /* margin-left: 353px; */
     }
-
-
-
 }
 
 @media (max-width: 681px) {
@@ -399,7 +403,6 @@ input[name="submit_btn"] {
         height: 1550px;
     }
 
-
     .contact__title {
         font-size: 34px;
         line-height: 34px;
@@ -408,6 +411,12 @@ input[name="submit_btn"] {
     .contact__paragraph {
         font-size: 18px;
         line-height: 30px;
+        padding: 0;
+        margin-top: 26px;
+    }
+
+    .contact__paragraph,
+    .contact__title {
         padding: 0;
     }
 }

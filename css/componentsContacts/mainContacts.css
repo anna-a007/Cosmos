@@ -18,7 +18,7 @@
 .contact__info {
     display: flex;
     flex-direction: column;
-    width: 420px;
+    max-width: 420px;
     height: 544px;
     margin-top: 30px;
 }
@@ -49,12 +49,21 @@
     background: var(--font-color-2);
     border: 1px solid rgba(18, 24, 42, 0.1);
     border-radius: 100px;
-    width: 420px;
+    max-width: 420px;
     height: 84px;
-    margin-top: 49px;
     display: flex;
     align-items: center;
 }
+
+.contact__phone{
+    margin-top: 49px;
+}
+
+.contact__email,
+.contact__location{
+    margin-top: 16px;
+}
+
 
 .contact__phone-item {
     display: flex;
