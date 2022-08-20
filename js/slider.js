@@ -18,7 +18,7 @@ const swiper = new Swiper(".swiper-container.swiper-one", {
 });
 
 var swiperTwo = new Swiper(".swiper-container2.swiper-two", {
-  slidesPerView: 'auto',
+  slidesPerView: 1.5,
   spaceBetween: 30,
   
   loop: true,
