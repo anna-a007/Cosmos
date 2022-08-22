@@ -190,109 +190,6 @@
     transform: rotate(45deg) translate(0px, 50%);
 }
 
-/*-----------------------------------------------*/
-
-/* .figure-left,
-.figure-right {
-    display: none;
-} */
-
-/* .form__contact-caption {
-    margin-top: 30px;
-} */
-
-/* .contact__wrapper {
-    transform: translateY(0px);
-} */
-
-/* .contact__info {
-    margin: 0 auto;
-    width: 354px;
-    transform: translateY(30px);
-} */
-
-/* .contact__phone {
-    width: 354px;
-    height: 84px;
-    margin-top: 26px;
-} */
-
-/* .contact__email,
-.contact__location {
-    width: 354px;
-    height: 84px;
-    margin-top: 10px;
-} */
-
-/* .contact__paragraph {
-    margin-top: 15px;
-    font-size: 18px;
-    width: 354px;
-    height: 120px;
-} */
-
-/* .contact-link,
-.email-link,
-.location-link {
-    font-size: 16px;
-} */
-
-/* .form__contact {
-    width: 354px;
-    height: 948px;
-    margin: 0 auto;
-    transform: translateY(65px);
-} */
-/* 
-.form__contact-caption {
-    margin-top: 30px;
-    margin-left: 31px;
-} */
-
-/* .form__fields {
-    margin: 0;
-} */
-
-/* .form__contact-caption:before {
-    width: 294px;
-} */
-
-/* .field_name {
-    margin-top: 30px;
-    margin-left: 30px;
-} */
-
-/* .field__wrapper {
-    display: block;
-} */
-
-/* input[type="text"],
-[type="number"],
-[name="reason"] {
-    width: 294px;
-    height: 50px;
-    margin-top: 10px;
-    margin-left: 30px;
-} */
-/* 
-textarea[name="message"] {
-    width: 294px;
-    height: 150px;
-    margin-left: 30px;
-} */
-
-/* input[name="submit_btn"] {
-    margin-top: 30px;
-    width: 122px;
-    height: 50px;
-    margin-left: 30px;
-    margin-bottom: 40px;
-} */
-
-/* .main__contact {
-    background-size: auto 267px;
-} */
-
 .header__mobile-menu {
     position: fixed;
     top: 0;
@@ -337,10 +234,6 @@ textarea[name="message"] {
     font-weight: 700;
 }
 
-/* .contact__paragraph,
-.contact__title {
-    padding: 0;
-} */
 
 @media (max-width: 768px) {
     .header__container-slider--title {

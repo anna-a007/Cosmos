@@ -112,6 +112,7 @@
         height: 1854px;
         gap: 30px;
         margin-top: -44px;   
+        justify-content: center;
     }
 
     .involvement__block1,.involvement__block2,.involvement__block3{

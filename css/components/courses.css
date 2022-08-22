@@ -25,11 +25,6 @@
     text-align: -webkit-center;
 }
 
-/* .infoslide{
-    width: auto;
-}
- */
-
 
 /*---------------------------------slids----------------------------------------------*/
 
@@ -387,15 +382,6 @@
     }
 }
 
-/* @media (max-width: 1001px) {
-    .swiper-container2{
-        max-width: 700px;
-        overflow-x: hidden;
-    }
-} */
-
-
-
 
 @media (max-width: 768px) {
     .popular__courses-container h2 {
@@ -403,7 +389,6 @@
     }
     
 }
-
 
 
 @media (max-width: 720px) {
@@ -501,19 +486,6 @@
     height: 535px;
     position: relative;
 }
-/* 
-.money2:before {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(60, 72, 95, 0.8);
-} */
 
 .money3 {
     background: url("../../img/Home/slide3-3.png");
@@ -522,18 +494,6 @@
     position: relative;
 }
 
-/* .money3:before {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(60, 72, 95, 0.8);
-} */
 
 .money4 {
     background: url("../../img/Home/slide3-4.png");
@@ -541,19 +501,6 @@
     height: 535px;
     position: relative;
 }
-
-/* .money4:before {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(60, 72, 95, 0.8);
-} */
 
 .money-management-info {
     display: flex;
@@ -620,7 +567,6 @@
 
 .button3 {
     display: flex;
-    /* margin-left: 619px; */
     position: absolute;
     bottom: 11.2%;
     left: 42.99%;
@@ -738,57 +684,3 @@
     }
 }
 
-
-/* @media (max-width: 768px) {
-    .courses__container h2 {
-        font-size: 38px;
-    }
-
-    .money__management-tittle {
-        font-size: 35px;
-        line-height: 45px;
-    }
-
-    .money__management-paragraph {
-        margin-top: 0;
-        letter-spacing: 0;
-    }
-
-    .button3 {
-        margin-left: 300px;
-    }
-}
-
-@media (max-width: 650px) {
-    .button3 {
-        margin-left: 230px;
-    }
-}
-
-@media (max-width: 530px) {
-    .money__management-tittle {
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 39px;
-    }
-
-    .money__management-paragraph {
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 32px;
-        width: 334px;
-        height: 188px;
-        letter-spacing: 0.02em;
-        margin-top: 31px;
-    }
-
-    .money-management-info {
-        margin-left: -50px;
-        margin-top: -15px;
-    }
-
-    .button3 {
-        margin-left: 125px;
-        margin-top: 25px;
-    }
-} */
