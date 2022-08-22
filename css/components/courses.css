@@ -169,6 +169,7 @@
     width: 36px;
     height: 36px;
     position: relative;
+    cursor: pointer;
 }
 
 .modal-swiper-button-next::after {
@@ -184,6 +185,7 @@
     width: 36px;
     height: 36px;
     position: relative;
+    cursor: pointer;
 }
 
 .modal-swiper-button-prev::after {
@@ -630,6 +632,7 @@
     width: 36px;
     height: 36px;
     position: relative;
+    cursor: pointer;
 }
 
 .money-management-button-next::after {
@@ -645,6 +648,7 @@
     width: 36px;
     height: 36px;
     position: relative;
+    cursor: pointer;
 }
 
 .money-management-button-prev::after {

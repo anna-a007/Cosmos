@@ -83,11 +83,6 @@
     margin-left: 20px;
 }
 
-.news__button:hover {
-    background: var(--color-main);
-    color: var(--font-color-2);
-}
-
 .news__card-atribute {
     display: flex;
     align-items: center;
@@ -176,11 +171,6 @@
     text-decoration: none;
 }
 
-/* .item-1 {
-    background-image: url("../../img/News/arrow-left.svg");
-    background-repeat: no-repeat;
-    z-index: 2;
-} */
 .item-1,.item-2{
     width: 46px;
     height: 46px;

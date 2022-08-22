@@ -30,12 +30,15 @@ body._lock {
     cursor: pointer;
     z-index: 5;
     display: none;
+   
 }
+
 
 .scroll-btn:hover {
     background: #2b344f;
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
     transition: 0.3s;
+    
 }
 
 .scroll-btn.active {
